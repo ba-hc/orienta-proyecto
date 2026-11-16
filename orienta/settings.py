@@ -76,6 +76,7 @@ DATA_UPLOAD_MAX_NUMBER_FIELDS = 60
 LOGGING = {
     "version": 1,
     "disable_existing_loggers": False,
-    "handlers": {"console": {"class": "logging.StreamHandler"}},
+    "formatters": {"technical": {"format": "{asctime} {levelname} {message}", "style": "{"}},
+    "handlers": {"console": {"class": "logging.StreamHandler", "formatter": "technical"}},
     "loggers": {"orienta": {"handlers": ["console"], "level": "INFO"}},
 }

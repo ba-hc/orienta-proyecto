@@ -54,9 +54,10 @@ def validate_catalogue(payload):
 @transaction.atomic
 def import_catalogue(payload):
     source_data, rows = validate_catalogue(payload)
-    source, _ = Source.objects.update_or_create(
+    source, _ = Source.objects.get_or_create(
         url=source_data["url"],
-        defaults={k: source_data[k] for k in ("title", "retrieved", "sha256")},
+        sha256=source_data["sha256"],
+        defaults={k: source_data[k] for k in ("title", "retrieved")},
     )
     for row in rows:
         campus, _ = Campus.objects.get_or_create(name=row["campus"])

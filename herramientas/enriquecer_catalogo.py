@@ -25,12 +25,12 @@ with transaction.atomic():
             or not 1 <= row["value"] <= 30
         ):
             raise ValueError("Extracto fuera del contrato de duraciones verificadas")
-        source, _ = Source.objects.update_or_create(
+        source, _ = Source.objects.get_or_create(
             url=row["url"],
+            sha256=row["sha256"],
             defaults={
                 "title": row["title"],
                 "retrieved": row["retrieved"],
-                "sha256": row["sha256"],
             },
         )
         offer = Offer.objects.get(code=row["code"], cycle=2027)

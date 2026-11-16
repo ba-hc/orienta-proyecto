@@ -19,6 +19,7 @@ from orienta.models import (
     Priority,
     Process,
     SavedOffer,
+    Source,
 )
 
 
@@ -303,6 +304,29 @@ class WorkflowTests(TestCase):
             with self.subTest(payload=payload):
                 with self.assertRaises(ValidationError):
                     import_catalogue(payload)
+
+    def test_RF18_source_revisions_do_not_overwrite_existing_provenance(self):
+        previous = Source.objects.get(url=sample_catalogue()["source"]["url"])
+        payload = sample_catalogue()
+        payload["source"]["sha256"] = "b" * 64
+        payload["source"]["title"] = "Nueva revisión sintética"
+        import_catalogue(payload)
+        previous.refresh_from_db()
+        self.assertEqual(previous.sha256, "a" * 64)
+        self.assertEqual(Source.objects.filter(url=previous.url).count(), 2)
+        self.assertEqual(Offer.objects.get(pk=self.a.pk).source.sha256, "b" * 64)
+
+    def test_RF11_edit_uses_authenticated_owner_even_with_foreign_identifier(self):
+        Priority.objects.create(process=self.process, dimension="ubicacion", level=1)
+        self.client.force_login(self.other)
+        result = self.client.post(
+            reverse("priorities"), {"ubicacion": 3, "process_id": str(self.process.pk)}
+        )
+        self.assertEqual(result.status_code, 302)
+        self.assertEqual(Priority.objects.get(process=self.process, dimension="ubicacion").level, 1)
+        self.assertEqual(
+            Priority.objects.get(process=self.other_process, dimension="ubicacion").level, 3
+        )
 
     def test_CI1_database_blocks_duplicates_and_self_comparison(self):
         SavedOffer.objects.create(process=self.process, offer=self.a)

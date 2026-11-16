@@ -140,6 +140,9 @@ try:
                     "error": error,
                 }
             )
+        remaining = start + args.segundos - time.perf_counter()
+        if remaining > 0:
+            time.sleep(remaining)
         return operations, time.perf_counter() - start
 
     began = time.perf_counter()

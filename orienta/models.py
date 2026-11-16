@@ -15,10 +15,15 @@ class Career(models.Model):
 
 
 class Source(models.Model):
-    url = models.URLField(max_length=700, unique=True)
+    url = models.URLField(max_length=700)
     title = models.CharField(max_length=180)
     retrieved = models.DateField()
     sha256 = models.CharField(max_length=64)
+
+    class Meta:
+        constraints = [
+            models.UniqueConstraint(fields=["url", "sha256"], name="source_url_snapshot_unique")
+        ]
 
 
 class Offer(models.Model):
