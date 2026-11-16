@@ -1,0 +1,108 @@
+{
+  "conclusion": "success",
+  "databaseId": 43947213668,
+  "headSha": "a8452440b219acd78b08dae8964e6337f41e2343",
+  "jobs": [
+    {
+      "completedAt": "2026-11-16T20:12:05Z",
+      "conclusion": "success",
+      "databaseId": 133579944245,
+      "name": "verificar",
+      "startedAt": "2026-11-16T20:11:46Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-11-16T20:11:48Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-11-16T20:11:47Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-16T20:11:49Z",
+          "conclusion": "success",
+          "name": "Run actions/checkout@v4",
+          "number": 2,
+          "startedAt": "2026-11-16T20:11:48Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-16T20:11:51Z",
+          "conclusion": "success",
+          "name": "Run actions/setup-python@v5",
+          "number": 3,
+          "startedAt": "2026-11-16T20:11:49Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-16T20:11:57Z",
+          "conclusion": "success",
+          "name": "Instalar dependencias verificadas",
+          "number": 4,
+          "startedAt": "2026-11-16T20:11:51Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-16T20:11:57Z",
+          "conclusion": "success",
+          "name": "Preparar runtime aislado",
+          "number": 5,
+          "startedAt": "2026-11-16T20:11:57Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-16T20:11:58Z",
+          "conclusion": "success",
+          "name": "Verificar formato, código y migraciones",
+          "number": 6,
+          "startedAt": "2026-11-16T20:11:57Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-16T20:12:01Z",
+          "conclusion": "success",
+          "name": "Ejecutar aceptación, integración y seguridad",
+          "number": 7,
+          "startedAt": "2026-11-16T20:11:58Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-16T20:12:03Z",
+          "conclusion": "success",
+          "name": "Verificar importación reproducible",
+          "number": 8,
+          "startedAt": "2026-11-16T20:12:01Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-16T20:12:03Z",
+          "conclusion": "success",
+          "name": "Post Run actions/setup-python@v5",
+          "number": 15,
+          "startedAt": "2026-11-16T20:12:03Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-16T20:12:03Z",
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@v4",
+          "number": 16,
+          "startedAt": "2026-11-16T20:12:03Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-16T20:12:03Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 17,
+          "startedAt": "2026-11-16T20:12:03Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/ba-hc/orienta-proyecto/actions/runs/43947213668/job/133579944245"
+    }
+  ],
+  "status": "completed",
+  "url": "https://github.com/ba-hc/orienta-proyecto/actions/runs/43947213668"
+}

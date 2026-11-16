@@ -1,0 +1,9 @@
+id,severidad,disparador,causa,accion,estado,evidencia
+D01,alta,Alta browser403,Referrer-Policy no-referrer produce Origin null,Usar same-origin conservando CSRF,Cerrado,e2e.json y pruebas.log
+D02,media,axe label-content-name-mismatch,aria-label omitía texto visible oferta,Incluir Guardar oferta yRetirar oferta ennombreaccesible,Cerrado,auditoria_web_antes.json y auditoria_web.json
+D03,alta,Catálogo sin RF deimportación,Precondición no verificable,RF18 validación transaccional,Cerrado,testsRF18 ysnapshot91
+D04,alta,RB10 sin supresión propia,RF11 solo recuperaba,RF19 confirmación yCASCADE,Cerrado,testRF19
+D05,media,Nueva revisión puede sobrescribir fuente,URLúnica sinversionado,ClaveURL+hash yinmutabilidad defuente,Cerrado,testRF18_source_revisions
+D06,alta,Sin medición deuso externo,No hay sesiones reales aportadas,Protocolo yCSV;no imputaréxitos,Abierto,Validacion_Usuarios.md
+D07,alta,Entorno sinTLS/cifradointegral,Demo local no es piloto,Gate previo adatos reales,Abierto,RNF-S03
+D08,media,Límite10min inicial fue599.78s,Últimaoperación programadaa599s,Completarventana exacta600s yrepetir,Cerrado,carga.json

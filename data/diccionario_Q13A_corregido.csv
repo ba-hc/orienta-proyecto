@@ -1,0 +1,9 @@
+codigo,etiqueta_original,tipo,limite_inferior_clp,limite_superior_clp,nota
+0,15000–30000,rango,15000,30000,Se preserva categoría histórica; solapa puntos exactos
+1,0,no_pagaria,0,0,Disposición declarada no es compra
+2,30000–50000,rango,30000,50000,Se preserva categoría histórica
+3,15000,punto,15000,15000,Solapa rangos; no recodificar sin formulario original
+4,5000–15000,rango,5000,15000,Se preserva categoría histórica
+5,30000,punto,30000,30000,Solapa rangos; no recodificar sin formulario original
+6,5000,punto,5000,5000,Solapa rango; no recodificar sin formulario original
+7,Mas_de_50000,rango_abierto,50000,,Límite inferior abierto

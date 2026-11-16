@@ -1,0 +1,7 @@
+{
+  "platform": "Linux-7.2.15-2-omarchy-x86_64-with-glibc2.44",
+  "python": "3.14.9",
+  "logical_cpus": 12,
+  "ram_gib": 15.51,
+  "mode": "Host compartido; servidores loopback y runtime de carga separados; datos sintéticos; no despliegue productivo"
+}

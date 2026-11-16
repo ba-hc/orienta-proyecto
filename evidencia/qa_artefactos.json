@@ -1,0 +1,119 @@
+{
+  "pdfs": [
+    {
+      "path": "docs/E3/Bitacora.pdf",
+      "pages": 1
+    },
+    {
+      "path": "docs/E3/Ciencias_Ingenieria.pdf",
+      "pages": 2
+    },
+    {
+      "path": "docs/E3/Cobertura_R3.pdf",
+      "pages": 2
+    },
+    {
+      "path": "docs/E3/Costos_Riesgos_Plan.pdf",
+      "pages": 3
+    },
+    {
+      "path": "docs/E3/Declaracion_IA_Licencias.pdf",
+      "pages": 2
+    },
+    {
+      "path": "docs/E3/Dossier_E3.pdf",
+      "pages": 15
+    },
+    {
+      "path": "docs/E3/Encuestas_Reanalisis.pdf",
+      "pages": 1
+    },
+    {
+      "path": "docs/E3/Encuestas_Resultados.pdf",
+      "pages": 1
+    },
+    {
+      "path": "docs/E3/Fuentes_Publicas.pdf",
+      "pages": 2
+    },
+    {
+      "path": "docs/E3/Guion_Demo.pdf",
+      "pages": 2
+    },
+    {
+      "path": "docs/E3/Guion_Oral_10_Minutos.pdf",
+      "pages": 3
+    },
+    {
+      "path": "docs/E3/Preguntas_Defensa.pdf",
+      "pages": 2
+    },
+    {
+      "path": "docs/E3/RNF_Mediciones.pdf",
+      "pages": 2
+    },
+    {
+      "path": "docs/E3/Respuesta_Docente_Iteraciones.pdf",
+      "pages": 3
+    },
+    {
+      "path": "docs/E3/SRS_IEEE830_E3.pdf",
+      "pages": 12
+    },
+    {
+      "path": "docs/E3/Trazabilidad_RF_RB.pdf",
+      "pages": 2
+    },
+    {
+      "path": "docs/E3/Validacion_Usuarios.pdf",
+      "pages": 2
+    },
+    {
+      "path": "entrega/Orienta_E3_Entrega.pdf",
+      "pages": 17
+    },
+    {
+      "path": "entrega/Orienta_E3_Exposicion.pdf",
+      "pages": 13
+    }
+  ],
+  "docx": [
+    "docs/E3/Bitacora.docx",
+    "docs/E3/Ciencias_Ingenieria.docx",
+    "docs/E3/Cobertura_R3.docx",
+    "docs/E3/Costos_Riesgos_Plan.docx",
+    "docs/E3/Declaracion_IA_Licencias.docx",
+    "docs/E3/Dossier_E3.docx",
+    "docs/E3/Encuestas_Reanalisis.docx",
+    "docs/E3/Fuentes_Publicas.docx",
+    "docs/E3/Guion_Demo.docx",
+    "docs/E3/Guion_Oral_10_Minutos.docx",
+    "docs/E3/Preguntas_Defensa.docx",
+    "docs/E3/RNF_Mediciones.docx",
+    "docs/E3/Respuesta_Docente_Iteraciones.docx",
+    "docs/E3/SRS_IEEE830_E3.docx",
+    "docs/E3/Trazabilidad_RF_RB.docx",
+    "docs/E3/Validacion_Usuarios.docx"
+  ],
+  "pptx": [
+    {
+      "path": "entrega/Orienta_E3_Entrega.pptx",
+      "slides": 17
+    },
+    {
+      "path": "entrega/Orienta_E3_Exposicion.pptx",
+      "slides": 13
+    }
+  ],
+  "checks": [
+    "SRS14secciones y7categorías RNF",
+    "21RNF conestado",
+    "PPT13+17láminas",
+    "PDFs contexto en cada página",
+    "DOCX/PPTX XMLválido",
+    "7criteriosR3 mapeados",
+    "12pantallas axe0hallazgos",
+    "4flujos E2E completos",
+    "Inspección visual:portada,iteraciones,RNF,costos,plan,referencias ytablaSRS"
+  ]
+}

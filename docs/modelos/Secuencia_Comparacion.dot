@@ -1,0 +1,7 @@
+digraph G {rankdir=TB;graph [bgcolor="white",fontname="Roboto",pad="0.3",ranksep="0.65"]; node [shape=box,style="rounded,filled",fillcolor="#F3F6F9",color="#223C6A",fontname="Roboto",fontsize=13,margin="0.18"]; edge [color="#53677B",fontname="Roboto",fontsize=10]; A[label="Estudiante: POST elegir par
+CSRF + sesión válida"]; B[label="Django: obtiene proceso
+filtrado por propietario"]; C[label="Valida dos ofertas activas distintas
+No válido:400, estado previo intacto"]; D[label="Transacción / ORM: guarda Comparison
+CHECK ofertaA != ofertaB"]; E[label="GET comparar: recupera prioridades y datos
+Verifica unidad, período y ciclo"]; F[label="HTML: hechos, fuentes y faltantes
+Sin ranking ni carrera ganadora"]; A->B->C->D->E->F; }

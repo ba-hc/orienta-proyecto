@@ -1,0 +1,11 @@
+digraph G {rankdir=LR;graph [bgcolor="white",fontname="Roboto",pad="0.3",ranksep="0.65"]; node [shape=box,style="rounded,filled",fillcolor="#F3F6F9",color="#223C6A",fontname="Roboto",fontsize=13,margin="0.18"]; edge [color="#53677B",fontname="Roboto",fontsize=10]; Navegador[label="Navegador
+[HTML/CSS]
+Chromium / Firefox"]; Django[label="Aplicación Orienta
+[Django]
+Formularios, dominio y permisos",fillcolor="#223C6A",fontcolor="white"]; SQLite[label="Base relacional
+[SQLite]
+Catálogo + procesos sintéticos"]; Claves[label="Claves del runtime
+[Archivo privado]
+Fuera de Git, modo600"]; Importador[label="CLI de importación
+[Python]
+Validación + transacción"]; Navegador->Django[label="HTTP loopback; CSRF / sesión"]; Django->SQLite[label="ORM / restricciones"]; Django->Claves[label="AES-GCM de respuestas"]; Importador->SQLite[label="Snapshot revisado"]; }

@@ -1,0 +1,15 @@
+{
+  "mode": "ejercicio local sobre copia consistente SQLite de datos sintéticos",
+  "restoration_seconds": 0.4958652309996978,
+  "snapshot_age_seconds_at_restore": 0.48781299591064453,
+  "source_bytes": 278528,
+  "restored_sha256_equals_snapshot": true,
+  "integrity_check": "ok",
+  "foreign_key_errors": 0,
+  "active_offers_recovered": 91,
+  "tampered_ciphertext_rejected": true,
+  "django_check_exit": 0,
+  "rto_target_seconds": 14400,
+  "rpo_target_seconds": 86400,
+  "limits": "RTO de ejercicio medido. RPO observado solo para este snapshot; no demuestra periodicidad de backup de24h ni operación escolar. Respaldo/key/restaurado temporales se eliminan al terminar. No certifica cifrado integral de la base activa."
+}

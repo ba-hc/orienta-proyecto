@@ -1,0 +1,149 @@
+{
+  "results": [
+    {
+      "width": 360,
+      "route": "/",
+      "axe_version": "4.14.1",
+      "violations": [],
+      "incomplete_checks": 0,
+      "passes": 16,
+      "lcp_lab_ms": 28,
+      "cls_lab": 0.012640264322916667,
+      "page_overflow": false,
+      "keyboard_skip": "Saltar al contenido"
+    },
+    {
+      "width": 360,
+      "route": "/intereses/",
+      "axe_version": "4.14.1",
+      "violations": [],
+      "incomplete_checks": 0,
+      "passes": 19,
+      "lcp_lab_ms": 40,
+      "cls_lab": 0.001016307638888889,
+      "page_overflow": false,
+      "keyboard_skip": "Saltar al contenido"
+    },
+    {
+      "width": 360,
+      "route": "/prioridades/",
+      "axe_version": "4.14.1",
+      "violations": [],
+      "incomplete_checks": 0,
+      "passes": 19,
+      "lcp_lab_ms": 32,
+      "cls_lab": 0.0010714326388888888,
+      "page_overflow": false,
+      "keyboard_skip": "Saltar al contenido"
+    },
+    {
+      "width": 360,
+      "route": "/catalogo/",
+      "axe_version": "4.14.1",
+      "violations": [],
+      "incomplete_checks": 0,
+      "passes": 21,
+      "lcp_lab_ms": 48,
+      "cls_lab": 0.0016998576388888888,
+      "page_overflow": false,
+      "keyboard_skip": "Saltar al contenido"
+    },
+    {
+      "width": 360,
+      "route": "/guardados/",
+      "axe_version": "4.14.1",
+      "violations": [],
+      "incomplete_checks": 0,
+      "passes": 16,
+      "lcp_lab_ms": 36,
+      "cls_lab": 0.0011496965277777778,
+      "page_overflow": false,
+      "keyboard_skip": "Saltar al contenido"
+    },
+    {
+      "width": 360,
+      "route": "/comparar/",
+      "axe_version": "4.14.1",
+      "violations": [],
+      "incomplete_checks": 0,
+      "passes": 19,
+      "lcp_lab_ms": 48,
+      "cls_lab": 0.0011105645833333333,
+      "page_overflow": false,
+      "keyboard_skip": "Saltar al contenido"
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "axe_version": "4.14.1",
+      "violations": [],
+      "incomplete_checks": 0,
+      "passes": 16,
+      "lcp_lab_ms": 40,
+      "cls_lab": 0.0014374102105034722,
+      "page_overflow": false,
+      "keyboard_skip": "Saltar al contenido"
+    },
+    {
+      "width": 1440,
+      "route": "/intereses/",
+      "axe_version": "4.14.1",
+      "violations": [],
+      "incomplete_checks": 0,
+      "passes": 19,
+      "lcp_lab_ms": 32,
+      "cls_lab": 0.0014100852231626157,
+      "page_overflow": false,
+      "keyboard_skip": "Saltar al contenido"
+    },
+    {
+      "width": 1440,
+      "route": "/prioridades/",
+      "axe_version": "4.14.1",
+      "violations": [],
+      "incomplete_checks": 0,
+      "passes": 19,
+      "lcp_lab_ms": 36,
+      "cls_lab": 0,
+      "page_overflow": false,
+      "keyboard_skip": "Saltar al contenido"
+    },
+    {
+      "width": 1440,
+      "route": "/catalogo/",
+      "axe_version": "4.14.1",
+      "violations": [],
+      "incomplete_checks": 0,
+      "passes": 21,
+      "lcp_lab_ms": 48,
+      "cls_lab": 0.0008174868887442131,
+      "page_overflow": false,
+      "keyboard_skip": "Saltar al contenido"
+    },
+    {
+      "width": 1440,
+      "route": "/guardados/",
+      "axe_version": "4.14.1",
+      "violations": [],
+      "incomplete_checks": 0,
+      "passes": 16,
+      "lcp_lab_ms": 28,
+      "cls_lab": 0.000711411404079861,
+      "page_overflow": false,
+      "keyboard_skip": "Saltar al contenido"
+    },
+    {
+      "width": 1440,
+      "route": "/comparar/",
+      "axe_version": "4.14.1",
+      "violations": [],
+      "incomplete_checks": 0,
+      "passes": 19,
+      "lcp_lab_ms": 36,
+      "cls_lab": 0.0006850028030960648,
+      "page_overflow": false,
+      "keyboard_skip": "Saltar al contenido"
+    }
+  ],
+  "limits": "Axe automático no sustituye lector de pantalla/inspección de todos los criterios. LCP/CLS son laboratorio local n=1 por ruta/ancho; no INP ni p75 de campo."
+}

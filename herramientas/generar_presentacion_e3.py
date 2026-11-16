@@ -283,7 +283,8 @@ pic = s.shapes.add_picture(
     width=Inches(8.3),
     height=Inches(3.65),
 )
-pic.crop_top, pic.crop_bottom = 0.27, 0.19
+pic.crop_top = 0.33
+pic.crop_bottom = 1 - 0.33 - (pic.image.size[0] * 3.65 / (8.3 * pic.image.size[1]))
 text(
     s,
     "91 ofertas oficiales\nPar distinto\nPrioridad declarada\nFuente y faltantes\nRecuperación propia\nSupresión confirmada",
@@ -436,7 +437,7 @@ table(
     s,
     ["Ventana", "Prioridad", "Criterio para continuar"],
     [
-        ["S15", "Cerrar construcción y evidenciaE3", "Must, catálogo, CI y medición verificables"],
+        ["S15", "Cerrar construcción y evidencia E3", "Must, catálogo, CI y medición verificables"],
         [
             "S15–16",
             "Usuarios y controles operativos",
@@ -444,17 +445,18 @@ table(
         ],
         [
             "S17",
-            "InformeE4 y continuidad",
+            "Informe E4 y continuidad",
             "Evidencias consolidadas, responsable y costos acreditados",
         ],
-        ["S17–18", "Ensayo ydemoE5", "Participación real de todos y contingencia probada"],
+        ["S17–18", "Ensayo y demo E5", "Todos exponen; contingencia probada"],
     ],
-    h=3.8,
-    size=19,
+    h=3.5,
+    widths=[1.5, 4.1, 6.4],
+    size=18,
 )
 text(
     s,
-    "Fuera del corte: exportación, panel, chat IA yranking. Se priorizan derechos, verificación y comprensión.",
+    "Fuera del corte: exportación, panel, chat IA y ranking. Se priorizan derechos, verificación y comprensión.",
     0.65,
     6.0,
     12,
@@ -466,7 +468,7 @@ text(
 s = slide(
     prs,
     "Lo construido se sostiene con evidencia",
-    "Repositorio independiente ypaquete reproducible. La exposición, la validación externa y la aceptación docente requieren ejecución real.",
+    "Repositorio independiente y paquete reproducible. La exposición, la validación externa y la aceptación docente requieren ejecución real.",
     notes[11] if len(notes) > 11 else "",
 )
 text(
@@ -494,11 +496,11 @@ text(
 s = slide(
     prs,
     "Referencias de la exposición",
-    "Las fuentes completas, fechas, hashes yrestricciones de uso se conservan en el repositorio.",
+    "Las fuentes completas, fechas, hashes y restricciones de uso se conservan en el repositorio.",
 )
 text(
     s,
-    "Rúbrica R3 pp6–7; enunciadoE3 p8; SRS E1 v1.8 y plantilla IEEE830.\nDEMRE/Mineduc · Oferta Definitiva 2027, páginas 294–300.\nSIES · Informe de retención de primer año, cohorte 2025.\nAdmisión UdeC · Informática, Medicina yPsicología.\nDjango 5.2 · auth, CSRF yORM; cryptography · AESGCM; NIST SP800-38D.\nDT · jornada de 42 horas; BCN · Decreto 8144, Leyes 19.628 y21.719.\nArtefactos propios: pruebas, coverage, Playwright, axe, carga yrestauración.",
+    "Rúbrica R3 pp.6–7; enunciado E3 p.8; SRS E1 v1.8 y plantilla IEEE830.\nDEMRE/Mineduc · Oferta Definitiva 2027, páginas 294–300.\nSIES · Informe de retención de primer año, cohorte 2025.\nAdmisión UdeC · Informática, Medicina y Psicología.\nDjango 5.2 · auth, CSRF y ORM; cryptography · AESGCM; NIST SP800-38D.\nDT · jornada de 42 horas; BCN · Decreto 8144, Leyes 19.628 y 21.719.\nArtefactos propios: pruebas, coverage, Playwright, axe, carga y restauración.",
     0.65,
     2.0,
     12,
@@ -520,7 +522,7 @@ s.shapes.add_picture(
 s = slide(
     prs,
     "Respaldo · el escenario de carga es explícito",
-    "evidencia/carga.json y 30.000 eventosJSONL; entorno y comando reproducible. Sin usuarios reales ni tráfico escolar.",
+    "evidencia/carga.json y 30.000 eventos JSONL; entorno y comando reproducible. Sin usuarios reales ni tráfico escolar.",
 )
 table(
     s,
@@ -572,4 +574,4 @@ text(
     INK,
 )
 prs.save(OUT / "Orienta_E3_Entrega.pptx")
-print("Presentaciones editables:13 láminas de exposición y17 deentrega.")
+print("Presentaciones editables:13 láminas de exposición y17 de entrega.")

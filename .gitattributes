@@ -1,0 +1,8 @@
+* text=auto
+*.pdf binary
+*.docx binary
+*.pptx binary
+*.png binary
+*.ttf binary
+*.zip binary
+docs/identidad/** -text -diff

@@ -1,0 +1,11 @@
+{
+  "checked_utc": "2026-11-16T20:24:29.727976+00:00",
+  "url": "http://127.0.0.1:19039/health/",
+  "status": 200,
+  "body": {
+    "status": "ok",
+    "mode": "academic-local"
+  },
+  "supervision": "Paseo workspace wks_3f2b29e04700f90e,script web",
+  "limits": "HTTP de loopback con datos sintéticos;no despliegue público/productivo"
+}

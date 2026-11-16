@@ -1,0 +1,192 @@
+{
+  "source": "docs/fuentes/SRS_E1_original.pdf",
+  "source_pages": "Apéndice A-Datos, pp41–49; instrumento pp29–31",
+  "method": "Extracción de filas tabulares desidentificadas de PDF; conteos ordinales4/5 y1/2; sin media monetariaQ13A ni estimación poblacional",
+  "aggregates": {
+    "estudiantes": {
+      "n": 156,
+      "items": {
+        "Q4": {
+          "n": 156,
+          "frequencies": {
+            "1": 49,
+            "2": 37,
+            "3": 25,
+            "4": 22,
+            "5": 23
+          },
+          "agreement_4_5": 45,
+          "disagreement_1_2": 86
+        },
+        "Q5": {
+          "n": 156,
+          "frequencies": {
+            "1": 45,
+            "2": 41,
+            "3": 20,
+            "4": 23,
+            "5": 27
+          },
+          "agreement_4_5": 50,
+          "disagreement_1_2": 86
+        },
+        "Q6": {
+          "n": 156,
+          "frequencies": {
+            "1": 57,
+            "2": 32,
+            "3": 24,
+            "4": 20,
+            "5": 23
+          },
+          "agreement_4_5": 43,
+          "disagreement_1_2": 89
+        },
+        "Q7": {
+          "n": 156,
+          "frequencies": {
+            "1": 27,
+            "2": 15,
+            "3": 32,
+            "4": 21,
+            "5": 61
+          },
+          "agreement_4_5": 82,
+          "disagreement_1_2": 42
+        },
+        "Q8": {
+          "n": 156,
+          "frequencies": {
+            "1": 57,
+            "2": 23,
+            "3": 35,
+            "4": 20,
+            "5": 21
+          },
+          "agreement_4_5": 41,
+          "disagreement_1_2": 80
+        },
+        "Q9": {
+          "n": 156,
+          "frequencies": {
+            "1": 18,
+            "2": 34,
+            "3": 57,
+            "4": 25,
+            "5": 22
+          },
+          "agreement_4_5": 47,
+          "disagreement_1_2": 52
+        },
+        "Q11_no_test": 66,
+        "Q13_categories": {
+          "0": 50,
+          "1": 42,
+          "2": 29,
+          "3": 21,
+          "4": 14
+        }
+      }
+    },
+    "apoderados": {
+      "n": 36,
+      "items": {
+        "Q4": {
+          "n": 36,
+          "frequencies": {
+            "1": 7,
+            "2": 3,
+            "3": 5,
+            "4": 10,
+            "5": 11
+          },
+          "agreement_4_5": 21,
+          "disagreement_1_2": 10
+        },
+        "Q5": {
+          "n": 36,
+          "frequencies": {
+            "1": 5,
+            "2": 5,
+            "3": 9,
+            "4": 7,
+            "5": 10
+          },
+          "agreement_4_5": 17,
+          "disagreement_1_2": 10
+        },
+        "Q6": {
+          "n": 36,
+          "frequencies": {
+            "1": 6,
+            "2": 3,
+            "3": 13,
+            "4": 2,
+            "5": 12
+          },
+          "agreement_4_5": 14,
+          "disagreement_1_2": 9
+        },
+        "Q7": {
+          "n": 36,
+          "frequencies": {
+            "1": 6,
+            "2": 7,
+            "3": 8,
+            "4": 8,
+            "5": 7
+          },
+          "agreement_4_5": 15,
+          "disagreement_1_2": 13
+        },
+        "Q8": {
+          "n": 36,
+          "frequencies": {
+            "1": 1,
+            "2": 3,
+            "3": 1,
+            "4": 5,
+            "5": 26
+          },
+          "agreement_4_5": 31,
+          "disagreement_1_2": 4
+        },
+        "Q9": {
+          "n": 36,
+          "frequencies": {
+            "1": 3,
+            "2": 3,
+            "3": 16,
+            "4": 6,
+            "5": 8
+          },
+          "agreement_4_5": 14,
+          "disagreement_1_2": 6
+        },
+        "Q14": {
+          "n": 36,
+          "frequencies": {
+            "2": 2,
+            "3": 6,
+            "4": 5,
+            "5": 23
+          },
+          "agreement_4_5": 28,
+          "disagreement_1_2": 2
+        },
+        "Q11_no_test": 15,
+        "Q13_categories": {
+          "0": 9,
+          "1": 7,
+          "2": 6,
+          "3": 4,
+          "4": 4,
+          "5": 3,
+          "6": 2,
+          "7": 1
+        }
+      }
+    }
+  },
+  "limits": "Fuente secundaria del equipo: se audita la transcripción E1, no exportación original del formulario. Muestra de conveniencia de mayo2026. Necesidades declaradas, no prueba de uso/utilidad de la versiónE3. Consentimiento reportado enE1, sin nueva atribución de sesiones."
+}

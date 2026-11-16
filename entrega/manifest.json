@@ -1,0 +1,953 @@
+{
+  "project": "Orienta · Grupo9 · E3",
+  "repository": "https://github.com/ba-hc/orienta-proyecto",
+  "application_commit": "a8452440b219acd78b08dae8964e6337f41e2343",
+  "limits": "Paquete técnico/documental;sin evidencia humana fabricada. Ver docs/E3/Pendientes_Reales.md. Manifiesto excluye su propio hash yelZIP.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 122,
+      "sha256": "d379ea609718ed87b80d01a57b6c8749eba65492e223b65519346caba514b90f"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 1354,
+      "sha256": "3e88fe67ceb3fa51a4ab3ce5800dc47fcb3b4187f3f6b252990249931917a895"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 109,
+      "sha256": "daa7ab62feee159b9ea0c4d95cd63278d6122b20335e591f95cb445518080517"
+    },
+    {
+      "path": "DESIGN.md",
+      "bytes": 874,
+      "sha256": "e3585fc6416a8563f1eae3887a99afb59f0b4cd84017c98797d906360adb71ba"
+    },
+    {
+      "path": "PROCEDENCIA.md",
+      "bytes": 586,
+      "sha256": "b6e1d54c16e30b68090821c50cef2a199d7e0c473a94cff6789a5f0af5951cc9"
+    },
+    {
+      "path": "PRODUCT.md",
+      "bytes": 1838,
+      "sha256": "15f4598bf0b7c85827a0d571101775b710bb6145f865a37553afe5155c0b197a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4726,
+      "sha256": "906a6329d87cb4e0d7aeaf493cdd1cff304eea42d2820ef7e996f3c012df4f9d"
+    },
+    {
+      "path": "data/atributos_verificados.json",
+      "bytes": 2063,
+      "sha256": "f34344cbb230c049d8de8085723065415dd155aee296966cc568cea53e3df251"
+    },
+    {
+      "path": "data/catalogo_udec_2027.json",
+      "bytes": 14591,
+      "sha256": "256a7db9fd468213edbdb78b48f7a53b9f435e6a35b9b3b487b96a6264550b41"
+    },
+    {
+      "path": "data/diccionario_Q13A_corregido.csv",
+      "bytes": 652,
+      "sha256": "138fbd564825fa92698f50cb09ddf3dd80e5d3c819db4954b9fbcfe00ff02109"
+    },
+    {
+      "path": "data/validacion_usuarios.csv",
+      "bytes": 119,
+      "sha256": "fbebcd884a1a92ec158c7d2079c22aaf64211469f05d3666a55c61a965bef8cd"
+    },
+    {
+      "path": "docs/AGENT_SETUP.md",
+      "bytes": 1011,
+      "sha256": "b1091d8cf6388e1c3b906e77bf08027f38ccc2ece6c91ec6d41a9affb8197bfb"
+    },
+    {
+      "path": "docs/E3/Bitacora.docx",
+      "bytes": 39481,
+      "sha256": "4e3153578553f32e372b203650122f0034867c9d7e2236ce0b6ce2de4e9482cd"
+    },
+    {
+      "path": "docs/E3/Bitacora.md",
+      "bytes": 2081,
+      "sha256": "16cb8ce63dd535cbb22bcccc9b3cf36b9eff6d817c28b1a5aeafe91809820e47"
+    },
+    {
+      "path": "docs/E3/Bitacora.pdf",
+      "bytes": 47240,
+      "sha256": "8a7b4674bc8b15461b0ddcbdfc16d7899ea5339459a529992b4c566cc8903bc6"
+    },
+    {
+      "path": "docs/E3/Ciencias_Ingenieria.docx",
+      "bytes": 41560,
+      "sha256": "a2b60ab70e0470b7bda9995b10d0a0635b1688df3ea5f4f99822a83587b480b1"
+    },
+    {
+      "path": "docs/E3/Ciencias_Ingenieria.md",
+      "bytes": 6010,
+      "sha256": "a7c67e21ab1f48326b7dd6277177594dd4e22e679a8cc9a4d92d7fbf2807a788"
+    },
+    {
+      "path": "docs/E3/Ciencias_Ingenieria.pdf",
+      "bytes": 91070,
+      "sha256": "4211f8b2c5c7a51e2adfbea23257867e72977a33db794efa97b254df1353dc68"
+    },
+    {
+      "path": "docs/E3/Cobertura_R3.docx",
+      "bytes": 40585,
+      "sha256": "d3d18d89428c598ce3574b6a76b968b13527858869c4facfecc71ef7333ad373"
+    },
+    {
+      "path": "docs/E3/Cobertura_R3.md",
+      "bytes": 3471,
+      "sha256": "a94a0d865f635d77df68d28b676cbdfb9c3abf682af95c3324ce2c49a2fc0f70"
+    },
+    {
+      "path": "docs/E3/Cobertura_R3.pdf",
+      "bytes": 85774,
+      "sha256": "36ce1f486af319253d9bbfdbfbdbd1718df42bab9815b815c5701a981d117daf"
+    },
+    {
+      "path": "docs/E3/Costos_Riesgos_Plan.docx",
+      "bytes": 42638,
+      "sha256": "8882e93e6ac991cd3b6d9d1855f0991e93c408fa9a79a419f6119bf2e4424486"
+    },
+    {
+      "path": "docs/E3/Costos_Riesgos_Plan.md",
+      "bytes": 7414,
+      "sha256": "ba674bec6080940283730c57c07d712ef468f85b3f1de50f39b0245c06613bd9"
+    },
+    {
+      "path": "docs/E3/Costos_Riesgos_Plan.pdf",
+      "bytes": 143718,
+      "sha256": "71f6f6c00faee43a39fe7fa54bccfea6a24d235e830e7ddc253e8605e73eeed9"
+    },
+    {
+      "path": "docs/E3/Declaracion_IA_Licencias.docx",
+      "bytes": 40646,
+      "sha256": "39d770deaf98a18e784199925116a030f1623c136bb849e7b9c1930910dcb9a6"
+    },
+    {
+      "path": "docs/E3/Declaracion_IA_Licencias.md",
+      "bytes": 4023,
+      "sha256": "5acf250d2b10cdce309d0e7bf5062b2c60a436859098d0cdba5b61abc337218f"
+    },
+    {
+      "path": "docs/E3/Declaracion_IA_Licencias.pdf",
+      "bytes": 86916,
+      "sha256": "c033a0737bc84473d3c1315f6ab15a94b9fc46008bec92bd1c7f58a42213f13a"
+    },
+    {
+      "path": "docs/E3/Defectos.csv",
+      "bytes": 1138,
+      "sha256": "212f74ec08a2f9db3df54d3baa10c9f62967cc641bc2647e4c2752b544903206"
+    },
+    {
+      "path": "docs/E3/Dossier_E3.docx",
+      "bytes": 61969,
+      "sha256": "389fca3569e3a010dadf0e211da294dc8f814ad69db53fe149a8c1e1f2895598"
+    },
+    {
+      "path": "docs/E3/Dossier_E3.md",
+      "bytes": 48007,
+      "sha256": "3a34cd2158608d78c5921974fc0ae7f28bd9c2937b0aabaef93845348e4cd3d4"
+    },
+    {
+      "path": "docs/E3/Dossier_E3.pdf",
+      "bytes": 481755,
+      "sha256": "2bffbba11bef7af4f56e97984502b5bc61ba90a0145120c308e99ab921d1bdb5"
+    },
+    {
+      "path": "docs/E3/Encuestas_Reanalisis.docx",
+      "bytes": 39582,
+      "sha256": "3cd3baea92cc1a6a4d0bc8adb488172692ac7d4f6a4577184fcdf7dd612c30e5"
+    },
+    {
+      "path": "docs/E3/Encuestas_Reanalisis.md",
+      "bytes": 1855,
+      "sha256": "5f6b21f5aa907cf9a32b3b1c4e399086f31ebb9c6e5051660310a7a257e1485b"
+    },
+    {
+      "path": "docs/E3/Encuestas_Reanalisis.pdf",
+      "bytes": 62381,
+      "sha256": "2d2b0d74775af475d22336a0dfcb88fee424339f1d00baf5bce316d0b559f432"
+    },
+    {
+      "path": "docs/E3/Encuestas_Resultados.pdf",
+      "bytes": 2327,
+      "sha256": "65e26a5073d38aedcf1d2bcd8b94917ab9ad978965338214961799893295765a"
+    },
+    {
+      "path": "docs/E3/Fuentes_Publicas.docx",
+      "bytes": 41455,
+      "sha256": "fb6822e86d9d82f034cb98d05cd1d80aca30d52cc50fea7f031266be3221e454"
+    },
+    {
+      "path": "docs/E3/Fuentes_Publicas.md",
+      "bytes": 5562,
+      "sha256": "a0244e4f664802f03e3f49904f6f810c064377dd3c53f7c6fb304eb20c901517"
+    },
+    {
+      "path": "docs/E3/Fuentes_Publicas.pdf",
+      "bytes": 98713,
+      "sha256": "2bad1c35dd0e1a7fea7c8f87eb90a892674b985a6018769606cbe09cfaeadce7"
+    },
+    {
+      "path": "docs/E3/Guion_Demo.docx",
+      "bytes": 40365,
+      "sha256": "730986f7a091b92fe81d4d2c286ed578a4a6e3414c9e136f171d22ce91a4cc31"
+    },
+    {
+      "path": "docs/E3/Guion_Demo.md",
+      "bytes": 3275,
+      "sha256": "696cf630a654d015648d062671d0a2a8d49c7ad85ecc45808c4879f2a4198839"
+    },
+    {
+      "path": "docs/E3/Guion_Demo.pdf",
+      "bytes": 79653,
+      "sha256": "14b1032eed64f0f2a114786b5cdbfb70f900a123656395ba7ea98e91101b6cc5"
+    },
+    {
+      "path": "docs/E3/Guion_Oral_10_Minutos.docx",
+      "bytes": 42702,
+      "sha256": "da1b92c16a77bc21a9d5a1ec4e40925949590d55197cb27fa85986849dc97a0f"
+    },
+    {
+      "path": "docs/E3/Guion_Oral_10_Minutos.md",
+      "bytes": 8588,
+      "sha256": "bb4528b8c58f46632999831337e71e62e669b83669a78312a63f0c19904e4b49"
+    },
+    {
+      "path": "docs/E3/Guion_Oral_10_Minutos.pdf",
+      "bytes": 109977,
+      "sha256": "f67076d7fed1603b02d0bd7b07e67e79ad61120471ae2ef27c6fbcdc82e8f21a"
+    },
+    {
+      "path": "docs/E3/Pendientes_Reales.md",
+      "bytes": 1325,
+      "sha256": "1ad23b440cb2514beb4a0e3ee6dff8e168e0e6f8d795006239dd24b728ed6020"
+    },
+    {
+      "path": "docs/E3/Preguntas_Defensa.docx",
+      "bytes": 41672,
+      "sha256": "69871d085f1025bf9c27bb897c5ea3730bef1966e84f9a07431c4d9301fc6be7"
+    },
+    {
+      "path": "docs/E3/Preguntas_Defensa.md",
+      "bytes": 7195,
+      "sha256": "4bf5d5894f0ddb9fcf82318fb6c11727803899d738917ea73644a12138d62c26"
+    },
+    {
+      "path": "docs/E3/Preguntas_Defensa.pdf",
+      "bytes": 66806,
+      "sha256": "18d416aa13321d608756dcdaa90730a674d93a8f8d1f363fd99025a52ad1733e"
+    },
+    {
+      "path": "docs/E3/RNF_Mediciones.docx",
+      "bytes": 42392,
+      "sha256": "5e794e7b8c5e3552e33184cf8304576b40d0f8ad82c6a857b0639c31e6cec079"
+    },
+    {
+      "path": "docs/E3/RNF_Mediciones.md",
+      "bytes": 7235,
+      "sha256": "8f2f079a8d4f6da274eca9643996e86357cb8416b3cc40539c47c662347ad59d"
+    },
+    {
+      "path": "docs/E3/RNF_Mediciones.pdf",
+      "bytes": 137394,
+      "sha256": "17c63016805db41bc5038de438edbb3e83c09bd1daea22f5141585d0213b1479"
+    },
+    {
+      "path": "docs/E3/Respuesta_Docente_Iteraciones.docx",
+      "bytes": 42769,
+      "sha256": "277706f4fc2ee89aa4884aa7888737fef86203618e300dc1b9b2c4245df30cb0"
+    },
+    {
+      "path": "docs/E3/Respuesta_Docente_Iteraciones.md",
+      "bytes": 8110,
+      "sha256": "6a865e1e345ad27007135d52461a235a351b6733fac588e96227cda1022d13df"
+    },
+    {
+      "path": "docs/E3/Respuesta_Docente_Iteraciones.pdf",
+      "bytes": 106538,
+      "sha256": "b035c055ce0e38dfb7df479f4caccd51b7a7da613536f7502c50c912c0c9960d"
+    },
+    {
+      "path": "docs/E3/SRS_IEEE830_E3.docx",
+      "bytes": 55871,
+      "sha256": "eec83c719a00abab53b4f5e6351f35e8c8e583952e87fa3c192e7f9d76d36769"
+    },
+    {
+      "path": "docs/E3/SRS_IEEE830_E3.md",
+      "bytes": 36588,
+      "sha256": "b40bfc07c58468938bff387111f43e2bc22589c5cd091f616f7ad6f861442e98"
+    },
+    {
+      "path": "docs/E3/SRS_IEEE830_E3.pdf",
+      "bytes": 375087,
+      "sha256": "5cccc9b544ff78a42b49f7d1fdbf742dd6f437bbc26ddf9feb2a42761b718878"
+    },
+    {
+      "path": "docs/E3/Trazabilidad_RF_RB.docx",
+      "bytes": 40268,
+      "sha256": "f59981f78a90f9600d1163141e2d481d9ea69e3512db44c4cf86ac94b409e40d"
+    },
+    {
+      "path": "docs/E3/Trazabilidad_RF_RB.md",
+      "bytes": 2901,
+      "sha256": "ff62e1cb27260ba1ff821dc4ebd33066bbed31fe10398dd0886350f33f73d81e"
+    },
+    {
+      "path": "docs/E3/Trazabilidad_RF_RB.pdf",
+      "bytes": 97530,
+      "sha256": "d6f9baca5366f621eb5be6b428620ac39a24a47dc5f37f6f08bb00e9da71df61"
+    },
+    {
+      "path": "docs/E3/Validacion_Usuarios.docx",
+      "bytes": 41138,
+      "sha256": "78f0b6d0cd4b0ad45a300efc9c21aa1712ba77f9652f4bb5d3fac20e3101827b"
+    },
+    {
+      "path": "docs/E3/Validacion_Usuarios.md",
+      "bytes": 6018,
+      "sha256": "b8861579c8ef2162ba5052e6afabe42f4517950e05ae287721067ac22d2fbb18"
+    },
+    {
+      "path": "docs/E3/Validacion_Usuarios.pdf",
+      "bytes": 65036,
+      "sha256": "11b76d74c39994dc87deecdac8e318847db7e8efd9bfdb54d624de537e47d254"
+    },
+    {
+      "path": "docs/antecedentes/Cobertura_Rubrica_R2.md",
+      "bytes": 3529,
+      "sha256": "11561ba1f530e2030d0c9c1ca1f86f5853721b69fed12ea859ff3ef52451572a"
+    },
+    {
+      "path": "docs/antecedentes/Dossier_E2_Completo.md",
+      "bytes": 45366,
+      "sha256": "7f61c8d5a69b8ae4bd23ed0bc99bacb2b0baf6b751e1da5222d25442eff62e19"
+    },
+    {
+      "path": "docs/antecedentes/Matriz_Decision_E2.csv",
+      "bytes": 2920,
+      "sha256": "4dfbc6c0d5f2d42fe97cc8abe5c30d8b3e312c781a1dafa50a6e0d32561d2e35"
+    },
+    {
+      "path": "docs/antecedentes/Revision_Rubrica_R2_2026-10-27.md",
+      "bytes": 4214,
+      "sha256": "f4ce6a6db84aa07312f0f225821f87652b5f1544d43e2afeeb8edd62b2615eca"
+    },
+    {
+      "path": "docs/fuentes/Comentarios_Docentes.md",
+      "bytes": 1726,
+      "sha256": "25836cc3772fdbdd50d0b9ecb5b9f3eefaf6fa56cd0a2efb8d2d0864e710ace0"
+    },
+    {
+      "path": "docs/fuentes/Enunciado_Proyecto_Semestral.pdf",
+      "bytes": 414000,
+      "sha256": "4a671f62123b98d10f4c10deda41f1e9fd40d1947e1c2ee2c93a3a565b65ff2c"
+    },
+    {
+      "path": "docs/fuentes/Inventario_SRS_E1.md",
+      "bytes": 33139,
+      "sha256": "9da75b17b63fa65acfc5906e4f94f47d443d248e4e4ccacac3105eb42ce31498"
+    },
+    {
+      "path": "docs/fuentes/Plantilla_SRS_IEEE830_2026.docx",
+      "bytes": 53247,
+      "sha256": "3479561857f412fd9a54c3ff3cbcd4bd3da70b6fc1355a87c15081978123ab36"
+    },
+    {
+      "path": "docs/fuentes/Rubricas_Proyecto_Semestral.pdf",
+      "bytes": 355414,
+      "sha256": "f7b66c71e1e8469b5741f1a6431988030d55ab727d024e0ae2f529313fed5c0f"
+    },
+    {
+      "path": "docs/fuentes/SRS_E1_original.pdf",
+      "bytes": 2841211,
+      "sha256": "b5ec22944882fb83a17f69da7633be5ad05f4fe09189fb620d57be185cab766f"
+    },
+    {
+      "path": "docs/fuentes/oferta_definitiva_2027.pdf",
+      "bytes": 3910036,
+      "sha256": "ca161a77d3b817abe3c292a18b80625f0fca590bdf8f71ca19f6c75946598067"
+    },
+    {
+      "path": "docs/identidad/Procedencia_Identidad.json",
+      "bytes": 2209,
+      "sha256": "09c0b7d55bdd889978a9e9a2c8bbe22dc2cffd6e478d90809e7ef16b3a471271"
+    },
+    {
+      "path": "docs/identidad/README.md",
+      "bytes": 1145,
+      "sha256": "d76dca820716e2d5755ec15d29137a0d60d1919feb703d11450766018f021026"
+    },
+    {
+      "path": "docs/identidad/UdeC_horizontal.png",
+      "bytes": 101392,
+      "sha256": "47cf33f44c96eecc4bc60ab4264d5d4f271ad550c02c8771e90c7aa3239ed68b"
+    },
+    {
+      "path": "docs/identidad/UdeC_horizontal.svg",
+      "bytes": 24176,
+      "sha256": "ca636b71f9a47920bf3a30e45c7beea3e60bfbf9abf2c5fc00c310ba47086312"
+    },
+    {
+      "path": "docs/identidad/fuentes/Poppins-Bold.ttf",
+      "bytes": 153944,
+      "sha256": "7219547ee25334cbac0fe4b3acf0bf631e48ebb622c71af038edaaa652c60875"
+    },
+    {
+      "path": "docs/identidad/fuentes/Poppins-Regular.ttf",
+      "bytes": 158240,
+      "sha256": "707fdc5c8bab57a90061c6a8ed7b70d5ffb82fc810e994e79f90bace890c255a"
+    },
+    {
+      "path": "docs/identidad/fuentes/Poppins-SemiBold.ttf",
+      "bytes": 155232,
+      "sha256": "248c0244b350ec68880996aa6be6d7796274b49992d5fcbbefe251906aa4ea36"
+    },
+    {
+      "path": "docs/identidad/fuentes/Poppins_OFL.txt",
+      "bytes": 4479,
+      "sha256": "118f07a2105ffe3d198879b716d6f91107415231777e2b35a6cca5ad1d4b22ca"
+    },
+    {
+      "path": "docs/identidad/fuentes/Roboto-Bold.ttf",
+      "bytes": 146768,
+      "sha256": "27467020febce4c0ac8482ea8e8d6f32bf8c5721fb9c301344d0e3f4d93a0119"
+    },
+    {
+      "path": "docs/identidad/fuentes/Roboto-Medium.ttf",
+      "bytes": 146132,
+      "sha256": "616eee3f9b60ec0196e09700ebca48a375da3323c4d5872e2b982170969ac90e"
+    },
+    {
+      "path": "docs/identidad/fuentes/Roboto-Regular.ttf",
+      "bytes": 146004,
+      "sha256": "dbd285b518e398832f6f4a736109c355ce25a49546bfce41bab256c9ef7e56eb"
+    },
+    {
+      "path": "docs/identidad/fuentes/Roboto_OFL.txt",
+      "bytes": 4487,
+      "sha256": "7d96701533d059cfd4191a85ecfd159e262527abd737eae6d9fb533844c70410"
+    },
+    {
+      "path": "docs/modelos/C4_Contenedores.dot",
+      "bytes": 867,
+      "sha256": "98a0e04ce2c3572ce9d76f7c8c1ced2f6eca085fa184b4227b9f7147a489e7e3"
+    },
+    {
+      "path": "docs/modelos/C4_Contenedores.png",
+      "bytes": 53644,
+      "sha256": "534d4bb82b14517c11570c93e0f738b51d15cedb00e4eb7de582c766f2f73e1e"
+    },
+    {
+      "path": "docs/modelos/C4_Contenedores.svg",
+      "bytes": 6592,
+      "sha256": "3c2f6121188d3ef0c73029fb065f3a4709dffbd12a753a9899e20c54bf7f8022"
+    },
+    {
+      "path": "docs/modelos/C4_Contexto.dot",
+      "bytes": 763,
+      "sha256": "62f5c5c05da43a9c6b59cff739f6d8749bd4c6af0fc642682826deb37a77f55f"
+    },
+    {
+      "path": "docs/modelos/C4_Contexto.png",
+      "bytes": 46203,
+      "sha256": "07424a59ef53104a8f90b593a35569905398afa62a4478eeb0400febda3230e0"
+    },
+    {
+      "path": "docs/modelos/C4_Contexto.svg",
+      "bytes": 5293,
+      "sha256": "b01165587b12e0ebadf78e4cdb8153d9f3878308e922e8e5b5907cce73474566"
+    },
+    {
+      "path": "docs/modelos/Modelo_Datos.dot",
+      "bytes": 1484,
+      "sha256": "4a2a4e3f0c26eba7e0b2065167105ba886d2296958c1b8b7d5c459fdfb4c8432"
+    },
+    {
+      "path": "docs/modelos/Modelo_Datos.png",
+      "bytes": 138544,
+      "sha256": "1dfc58e1b0a11da16490a3534ca0326a610b739b095199430662a72137242a7c"
+    },
+    {
+      "path": "docs/modelos/Modelo_Datos.svg",
+      "bytes": 18276,
+      "sha256": "68206ffe1688b1bbbaf46f03bc478cd709e91e3a0cb5a42be5c1a973cadacd6d"
+    },
+    {
+      "path": "docs/modelos/Secuencia_Comparacion.dot",
+      "bytes": 737,
+      "sha256": "7964518e6813795641a17b5ba7c9af73ce37d8ddd749bd4883977234cb41333b"
+    },
+    {
+      "path": "docs/modelos/Secuencia_Comparacion.png",
+      "bytes": 44274,
+      "sha256": "f95d49e0d3c231188001b8dbaf6a48ef09c15591744c2cbd26cac5763a3b3610"
+    },
+    {
+      "path": "docs/modelos/Secuencia_Comparacion.svg",
+      "bytes": 6512,
+      "sha256": "a39bf1f04e22f6d52563ccd81e98cd9e1fa53d91a9df916a32016c8b869d6927"
+    },
+    {
+      "path": "entrega/LEEME.md",
+      "bytes": 982,
+      "sha256": "3571d55514f1938e92ef51f24b990c3d80fa60e8937a1f95d3a9533aa3197e4e"
+    },
+    {
+      "path": "entrega/Orienta_E3_Entrega.pdf",
+      "bytes": 485249,
+      "sha256": "7be80a4103c5bb73252f8b84e490e6f8721b37f776b36887a95a422a3fa7395b"
+    },
+    {
+      "path": "entrega/Orienta_E3_Entrega.pptx",
+      "bytes": 346744,
+      "sha256": "6320b00e83ff72a45742f042a2cdd4624128c75cc2fb6357778d5cee27be8b78"
+    },
+    {
+      "path": "entrega/Orienta_E3_Exposicion.pdf",
+      "bytes": 414574,
+      "sha256": "d6cebe312924f02be42db4c5c8e2e201a410df2077022b1c7e93b2418a1e5df2"
+    },
+    {
+      "path": "entrega/Orienta_E3_Exposicion.pptx",
+      "bytes": 283986,
+      "sha256": "b65ef2c2bf7bce987265d9b4324479c9d0ccdb2c9869dba85844a53f0cd7c21b"
+    },
+    {
+      "path": "evidencia/assets.json",
+      "bytes": 3766,
+      "sha256": "0d96dc8c60759b952f15aad9ce2fe94a3b75ae7dc73a5c322b27ad14306ea1f0"
+    },
+    {
+      "path": "evidencia/auditoria_web.json",
+      "bytes": 3842,
+      "sha256": "6b734bc0b1a22f28712d44d75f5517263c169acd8337a02c28e549014588f881"
+    },
+    {
+      "path": "evidencia/auditoria_web_antes.json",
+      "bytes": 21393,
+      "sha256": "8047bf310abf3347c9a53baad435be6dfc6ae28d62cabbb9dc295e7a39bd1205"
+    },
+    {
+      "path": "evidencia/auditoria_web_ejecucion.log",
+      "bytes": 57,
+      "sha256": "0342fea2f1925610ae05da00bbaaf3f9fd5ac2b9b0400b5a6a963929d8f62ee2"
+    },
+    {
+      "path": "evidencia/carga.json",
+      "bytes": 963,
+      "sha256": "2105d7c696d1203d4512a6af9088f5adc1f4a5a552344296877d66e512e12e6b"
+    },
+    {
+      "path": "evidencia/carga_ejecucion.log",
+      "bytes": 917,
+      "sha256": "7239d1c33ebdbe6ef3135fcf4f51355a004fa81c5125d03077bc4ee44855aec6"
+    },
+    {
+      "path": "evidencia/carga_operaciones.jsonl",
+      "bytes": 3397310,
+      "sha256": "7c27f7086eed9c7f402e1f9540955ed9763b7eb089e7e03f6e365203d41b3aa2"
+    },
+    {
+      "path": "evidencia/ci_codigo.json",
+      "bytes": 3414,
+      "sha256": "48b5878665d81c18a6132baa1eebbd57c8c5507f881d13db5d0d9a4d6390bfd4"
+    },
+    {
+      "path": "evidencia/cobertura.json",
+      "bytes": 54382,
+      "sha256": "5402ad31d174a03469c894634acde7a485f95164abc1c20be1413e76ffb7a2f8"
+    },
+    {
+      "path": "evidencia/delegacion.json",
+      "bytes": 3094,
+      "sha256": "857c913279ef9766e471f1ff5e9c83f4f0835c4cc62888f3f66b84bdf1e888ee"
+    },
+    {
+      "path": "evidencia/e2e.json",
+      "bytes": 1252,
+      "sha256": "4e482ce567a4539b820008f8417312b111d4fe447b821999f2e27384d088894d"
+    },
+    {
+      "path": "evidencia/e2e_ejecucion.log",
+      "bytes": 72,
+      "sha256": "5b22133423843524bd7c93d8e7fcf0d9a8acc8e7ec907527cd67127afcb62299"
+    },
+    {
+      "path": "evidencia/encuestas_reanalisis.json",
+      "bytes": 4345,
+      "sha256": "f8a6b5755b3aacfd8202202249c5525b5524092f72d548e826f642668c610235"
+    },
+    {
+      "path": "evidencia/entorno.json",
+      "bytes": 253,
+      "sha256": "3dd12bc9658eab2864533d8244b1081b011d7feca0dfd0b1352fdc7c84e65151"
+    },
+    {
+      "path": "evidencia/exportacion_documentos.log",
+      "bytes": 2120,
+      "sha256": "6f0746f163688d869e3f6caa13259d2a4f2c1499edbf6f7dcf594dac1017de0e"
+    },
+    {
+      "path": "evidencia/inicial_carga.json",
+      "bytes": 964,
+      "sha256": "4a6bda8c8fd2be91a8d3bbd2ecd13747bfa0f49a7dcdbd7098fd82231352e851"
+    },
+    {
+      "path": "evidencia/inicial_carga_ejecucion.log",
+      "bytes": 918,
+      "sha256": "b874c3ad31492d189c3eeb2af884756b5a34a1762d32fc8945ef63d02bc86c90"
+    },
+    {
+      "path": "evidencia/inicial_carga_operaciones.jsonl",
+      "bytes": 3400998,
+      "sha256": "e0f2abc9db6876aa2befec379f772039369e83126963d37cdd549d602f38166e"
+    },
+    {
+      "path": "evidencia/navegador/chromium-1440-acceso.png",
+      "bytes": 84201,
+      "sha256": "f9af603e0f3522d54407dcf048a811ca6ac65bc9d92a3aa861c51770812556ea"
+    },
+    {
+      "path": "evidencia/navegador/chromium-1440-comparacion.png",
+      "bytes": 131504,
+      "sha256": "1d52ab6570d0a092e0fe115f5c33456517062c9c82bd399ac6aa23bf0667437a"
+    },
+    {
+      "path": "evidencia/navegador/chromium-1440-intereses.png",
+      "bytes": 168714,
+      "sha256": "1ed93395fa1cb1c3eb2fbffff07963e4b871073144240f8df6b34ae0229e39b7"
+    },
+    {
+      "path": "evidencia/navegador/chromium-360-acceso.png",
+      "bytes": 69407,
+      "sha256": "fbeb80aaceaaf1b86cd633099bb4e9eb103f68f6e019ddf0ea6b2eb5e5f301ca"
+    },
+    {
+      "path": "evidencia/navegador/chromium-360-comparacion.png",
+      "bytes": 115287,
+      "sha256": "586142e27061521fcf50748ec2ac28092e8462fd0cca5d64c005d6eda1d22603"
+    },
+    {
+      "path": "evidencia/navegador/chromium-360-intereses.png",
+      "bytes": 152617,
+      "sha256": "e46f0cd967bcb2940f645868c0f48e2f98d3ed2c8e78c86483e0421ab9459cfb"
+    },
+    {
+      "path": "evidencia/navegador/diagnostico-alta.png",
+      "bytes": 15651,
+      "sha256": "185e6bea772423e9e42fad8dd9832d434938bee7a075fb3cadaaaef64d6dfda9"
+    },
+    {
+      "path": "evidencia/navegador/firefox-1440-acceso.png",
+      "bytes": 118496,
+      "sha256": "a518b39ff29beb06c744ab3148199578290a9de66d3d9ba9f47b8a4d02955938"
+    },
+    {
+      "path": "evidencia/navegador/firefox-1440-comparacion.png",
+      "bytes": 204462,
+      "sha256": "5a24735b5c13b06f8e20645276eb2e09e409a48c44e34099756e3ef134707714"
+    },
+    {
+      "path": "evidencia/navegador/firefox-1440-intereses.png",
+      "bytes": 237364,
+      "sha256": "43eefdeea0d85934c8b2e1de3c2a8b5b18c976fb0b8a283164f7ec86d302e1ce"
+    },
+    {
+      "path": "evidencia/navegador/firefox-360-acceso.png",
+      "bytes": 101027,
+      "sha256": "936fa1a284165575517c75190ded8ac687fab49e55f18fe80d9e966f1c8ad701"
+    },
+    {
+      "path": "evidencia/navegador/firefox-360-comparacion.png",
+      "bytes": 166143,
+      "sha256": "a1ebf18dca3fef1e886e4b7f8bad02a04602faae803bf5ef3c092b2c94f6fc4a"
+    },
+    {
+      "path": "evidencia/navegador/firefox-360-intereses.png",
+      "bytes": 225073,
+      "sha256": "c570a55d16801137397940661e2b906fb6ba28ec4051bf913d84099f1b169cb8"
+    },
+    {
+      "path": "evidencia/pruebas.log",
+      "bytes": 7440,
+      "sha256": "30bd923d3cb059958a82dbf37acb1eaf03c030811f9aeacd57de023c1be66bf1"
+    },
+    {
+      "path": "evidencia/qa_artefactos.json",
+      "bytes": 2640,
+      "sha256": "1092d8af10e7dfe9fc1ead936354ad55e3eb4cb49cb269d4de14b1e41820a46b"
+    },
+    {
+      "path": "evidencia/restauracion.json",
+      "bytes": 724,
+      "sha256": "9cdffbd0697bf91781a64299e9b514b5d858f2c24ef290242392a446be75adb8"
+    },
+    {
+      "path": "evidencia/revision_secretos.json",
+      "bytes": 266,
+      "sha256": "f40615f22bbe342f3b66c44ac6457bceac6838eae0384cc3342411bb09a21c31"
+    },
+    {
+      "path": "evidencia/servicio_local.json",
+      "bytes": 338,
+      "sha256": "fec308c275616f266f3e9b84b7a13927946ac365b2568d04733f43244c0b9332"
+    },
+    {
+      "path": "evidencia/verificacion_codigo.json",
+      "bytes": 431,
+      "sha256": "c45cb1571a2948fec201aa3346f8ac94b20f01ec9702db81ead3d0a52d2a8955"
+    },
+    {
+      "path": "herramientas/README_exportador.md",
+      "bytes": 3240,
+      "sha256": "5e909765bcae1dccf6f5cf4a4c65ce1b2dc3a5a1234def1764eb308816c882ee"
+    },
+    {
+      "path": "herramientas/analizar_validacion.py",
+      "bytes": 2784,
+      "sha256": "dbb5d58a4c91bf7edba467be0781a0e15fe1d9dca773a39cbd26c23e5f2b333c"
+    },
+    {
+      "path": "herramientas/auditar_web.py",
+      "bytes": 3987,
+      "sha256": "7290cdbe579dc6279fd9fb626150d0b64ca872d8be3164eae97a859640dccddb"
+    },
+    {
+      "path": "herramientas/e2e_navegadores.py",
+      "bytes": 5026,
+      "sha256": "ac376924bdd52b80f772fc17fe6ae88af2cef910b64d0db04033f637d5051635"
+    },
+    {
+      "path": "herramientas/enriquecer_catalogo.py",
+      "bytes": 1599,
+      "sha256": "6f3afa4a868fc82a78348994eeda2dec72d9ca2df98271325ab93a8e64659fe4"
+    },
+    {
+      "path": "herramientas/exportar_documentos.py",
+      "bytes": 22179,
+      "sha256": "efd8beabaeeec63bd1a65e7fab3b8a2149eb225f882bbfe1a3f7ac7e341cbf69"
+    },
+    {
+      "path": "herramientas/generar_presentacion_e3.py",
+      "bytes": 18261,
+      "sha256": "969f8fb95221dd58af4bf17be15af9cb6014568e422f5158057635976e7dfe69"
+    },
+    {
+      "path": "herramientas/importar_catalogo.py",
+      "bytes": 1115,
+      "sha256": "3a24abf6dc06739ad891e639bad801234c1cdad4ad00bc57e20d10aa2f51fccf"
+    },
+    {
+      "path": "herramientas/inicializar.py",
+      "bytes": 756,
+      "sha256": "fc84f6e55f7c9eb9e72e5c8ca83c6d07be874e302afb8cce92a15f7b13c5102a"
+    },
+    {
+      "path": "herramientas/medir_carga.py",
+      "bytes": 7591,
+      "sha256": "928e471d7242bb36b9b25d88c356d64c52fc2d7c1d363bf1139b2e172b6e6a8f"
+    },
+    {
+      "path": "herramientas/medir_restauracion.py",
+      "bytes": 3426,
+      "sha256": "5a538b00d21211016dff9a8f1da1e3b786ec30f86308e3c6a961f8413ab02e9a"
+    },
+    {
+      "path": "herramientas/reanalizar_encuestas.py",
+      "bytes": 6263,
+      "sha256": "e73774b651f1bfb5dfaabed28d568e5babf7ee2f5fd370dd5629dba7dec131a7"
+    },
+    {
+      "path": "manage.py",
+      "bytes": 210,
+      "sha256": "ee7450917e9ad075f50ce7af8e5e235ff23f1cc76d711b170e17b56569548810"
+    },
+    {
+      "path": "orienta/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "orienta/catalogue.py",
+      "bytes": 3688,
+      "sha256": "243020ba1e877428978b1b4c4d09e8b629e1c6a2596c108b382e803ab13379b0"
+    },
+    {
+      "path": "orienta/domain.py",
+      "bytes": 3634,
+      "sha256": "0db55a0c3ec698ad9796d96cb655c8252c7e7306e20243bef7a097e4cabd67a7"
+    },
+    {
+      "path": "orienta/forms.py",
+      "bytes": 2533,
+      "sha256": "b660428bf634f1b94cf3c6edd8eb36256dfe4b44bc39cff5bc659d4ba8275406"
+    },
+    {
+      "path": "orienta/middleware.py",
+      "bytes": 960,
+      "sha256": "ca8c74727e26c0012cbc4aa2a25a8a6b3da09d3e97a068ca46113e6d5fb0b207"
+    },
+    {
+      "path": "orienta/migrations/0001_initial.py",
+      "bytes": 10693,
+      "sha256": "b65ac3d27723c92b6a8437c186e76fe105797650349b2e863f1136429711f427"
+    },
+    {
+      "path": "orienta/migrations/0002_alter_source_url_source_source_url_snapshot_unique.py",
+      "bytes": 589,
+      "sha256": "e6930babf189e99a0c2ffe4f9c7a7edba1837e5265681b9b6f96f1def2f1e1a2"
+    },
+    {
+      "path": "orienta/migrations/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "orienta/models.py",
+      "bytes": 4284,
+      "sha256": "5ad335acf2fd402beccd592f9f75f0248bcfb547f79c58153c5d671082ae5393"
+    },
+    {
+      "path": "orienta/settings.py",
+      "bytes": 2826,
+      "sha256": "8c9e35aa86fd533969f7fb5470aede66ac91f9a35f9b8a50defc3cee3842fc78"
+    },
+    {
+      "path": "orienta/urls.py",
+      "bytes": 1183,
+      "sha256": "8b6c07fff08bddf29dcc1ea1c74893151c315b71d10f457dc4f480556850b03c"
+    },
+    {
+      "path": "orienta/views.py",
+      "bytes": 11467,
+      "sha256": "5bdce72f2a4b6ceac68831fb288b055832a95b2e8c06133a3bff483a9a86ba41"
+    },
+    {
+      "path": "orienta/wsgi.py",
+      "bytes": 166,
+      "sha256": "24021971dee261e2f05a2b4e18b8077a22d5ae9f2993122de1a62b90ebebd1b1"
+    },
+    {
+      "path": "paseo.json",
+      "bytes": 286,
+      "sha256": "5abb8c6d005c897922159f7d16371c0fc07654a7a11a1cc2364640492d8e2e2f"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 246,
+      "sha256": "2f86a9f429dd8d03232069c8173fd5831922c8a606696e3ba8eb03a6904e4e38"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "bytes": 177,
+      "sha256": "0b1d366d549b424b8a6ce8e0bf116add332b38eced1a6ef4079d56d9b6b9b856"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "bytes": 446,
+      "sha256": "4c2c74ea614d85988a0f44be5aee1b7b240d512753b78f5b3936fcc3f00f8af1"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 53,
+      "sha256": "e6fae2a1273f20b37f22979e2314276e3ed549aa2f27bc1183352790b1708f2e"
+    },
+    {
+      "path": "static/orienta/app.css",
+      "bytes": 7130,
+      "sha256": "2eaccd8016c6604fdc47de5f759b845eb8fcf36cd8612632ea7b3d33670feb64"
+    },
+    {
+      "path": "static/orienta/fonts/Poppins-SemiBold.ttf",
+      "bytes": 155232,
+      "sha256": "248c0244b350ec68880996aa6be6d7796274b49992d5fcbbefe251906aa4ea36"
+    },
+    {
+      "path": "static/orienta/fonts/Roboto-Bold.ttf",
+      "bytes": 146768,
+      "sha256": "27467020febce4c0ac8482ea8e8d6f32bf8c5721fb9c301344d0e3f4d93a0119"
+    },
+    {
+      "path": "static/orienta/fonts/Roboto-Regular.ttf",
+      "bytes": 146004,
+      "sha256": "dbd285b518e398832f6f4a736109c355ce25a49546bfce41bab256c9ef7e56eb"
+    },
+    {
+      "path": "templates/orienta/_form.html",
+      "bytes": 388,
+      "sha256": "bcb7c544c08c5f072fc4262612e391bb0370a7d61f3fb9f12cab573d578d1158"
+    },
+    {
+      "path": "templates/orienta/account.html",
+      "bytes": 1102,
+      "sha256": "06450399e40fd078a715b7cbf94fad9a5df4fd615ba669a1ce015b5d5810fb62"
+    },
+    {
+      "path": "templates/orienta/base.html",
+      "bytes": 1296,
+      "sha256": "92891c00d3cf01964262f9def80e5cdc6d63663fa155bcdd0c1cd5b01ff8f231"
+    },
+    {
+      "path": "templates/orienta/catalog.html",
+      "bytes": 1755,
+      "sha256": "bc97f693c675abed3d02f5beaef22024133f72256db6542aa7ea73e006e0bab0"
+    },
+    {
+      "path": "templates/orienta/comparison.html",
+      "bytes": 3051,
+      "sha256": "1f70e382dc9bf4b113a4549e538bfa5af95721de6e20fc89adda492f6f68c2d4"
+    },
+    {
+      "path": "templates/orienta/dashboard.html",
+      "bytes": 1375,
+      "sha256": "dfca5498e9b9117df0817c89d204c6c3cce67b521aa181111ea3f9c8b16122b7"
+    },
+    {
+      "path": "templates/orienta/delete.html",
+      "bytes": 722,
+      "sha256": "f718eda904565305245bf6ec452921cb987e65df93dcc9a730ced45fcd36c38b"
+    },
+    {
+      "path": "templates/orienta/detail.html",
+      "bytes": 1221,
+      "sha256": "38053dacfd65f81fad0d5a123582c04dac600786c39374b0785de519c3d44056"
+    },
+    {
+      "path": "templates/orienta/error.html",
+      "bytes": 160,
+      "sha256": "23e183ea469c03dfde377185d274ec5466f2f8ce7579ba398969f44d50740c5e"
+    },
+    {
+      "path": "templates/orienta/interests.html",
+      "bytes": 1177,
+      "sha256": "d1a47149cec6c949cdf59f338aa4aa034b58edf3d460414b90d1f74798a03ac8"
+    },
+    {
+      "path": "templates/orienta/priorities.html",
+      "bytes": 359,
+      "sha256": "af9e6a18281b4e083086faa13e4e23ca285c9e00741e684bc3d42d83b787fe78"
+    },
+    {
+      "path": "templates/orienta/saved.html",
+      "bytes": 977,
+      "sha256": "2d0e8977f07957bf17a2996c3d7e18c138332041d40ab86d17db557fbc6c8f4d"
+    },
+    {
+      "path": "tests/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/test_workflow.py",
+      "bytes": 16496,
+      "sha256": "8b853f820eb4945fd2ea63ea178376e5e159bf8f67d5065a14de000dc1644ecf"
+    }
+  ]
+}

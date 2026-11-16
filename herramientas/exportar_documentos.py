@@ -285,6 +285,10 @@ def add_table(document, rows, separator):
         column.width = width
     for index, values in enumerate(rows):
         row = table.add_row()
+        # Una fila breve cabe en una página: mantener ID y contenido juntos.
+        # Las celdas extensas siguen pudiendo continuar para no perder texto.
+        if max(map(len, values), default=0) < 1000:
+            row._tr.get_or_add_trPr().append(xml_value("w:cantSplit", "true"))
         # Sin cantSplit: una fila más alta que la página puede continuar.
         if index == 0:
             row._tr.get_or_add_trPr().append(xml_value("w:tblHeader", "true"))

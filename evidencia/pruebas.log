@@ -1,0 +1,82 @@
+Creating test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Found 24 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: staticfiles
+  Apply all migrations: auth, contenttypes, orienta, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0001_initial... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying orienta.0001_initial... OK
+  Applying orienta.0002_alter_source_url_source_source_url_snapshot_unique... OK
+  Applying sessions.0001_initial...test_CI1_database_blocks_duplicates_and_self_comparison (tests.test_workflow.WorkflowTests.test_CI1_database_blocks_duplicates_and_self_comparison) ... ok
+test_CI2_corrupt_payload_fails_closed_in_interface (tests.test_workflow.WorkflowTests.test_CI2_corrupt_payload_fails_closed_in_interface) ... 2026-11-16 17:08:04,533 ERROR interest_integrity_failed
+2026-11-16 17:08:04,538 WARNING http_error status=503 correlation=3c394f65832541e28fdddcfb8e36d616
+ok
+test_CI2_random_nonces_tamper_and_binding (tests.test_workflow.WorkflowTests.test_CI2_random_nonces_tamper_and_binding) ... ok
+test_RF01_create_return_without_civil_identifier (tests.test_workflow.WorkflowTests.test_RF01_create_return_without_civil_identifier) ... ok
+test_RF01_invalid_duplicate_and_wrong_credentials (tests.test_workflow.WorkflowTests.test_RF01_invalid_duplicate_and_wrong_credentials) ... ok
+test_RF02_RF03_complete_versioned_interests_survive_logout (tests.test_workflow.WorkflowTests.test_RF02_RF03_complete_versioned_interests_survive_logout) ... ok
+test_RF02_invalid_incomplete_submission_does_not_persist (tests.test_workflow.WorkflowTests.test_RF02_invalid_incomplete_submission_does_not_persist) ... 2026-11-16 17:08:05,192 WARNING http_error status=400 correlation=797d1204d6df46b7b9a16f74f9753050
+2026-11-16 17:08:05,204 WARNING http_error status=400 correlation=772925931d4b4ad3901e18053df58910
+ok
+test_RF04_priorities_remain_undefined_until_declared (tests.test_workflow.WorkflowTests.test_RF04_priorities_remain_undefined_until_declared) ... 2026-11-16 17:08:05,215 WARNING http_error status=400 correlation=fdcfa166a8d84a77abbdadcb5af45cdd
+ok
+test_RF05_RF06_catalogue_filters_and_provenance (tests.test_workflow.WorkflowTests.test_RF05_RF06_catalogue_filters_and_provenance) ... ok
+test_RF07a_RF07b_idempotent_save_and_remove (tests.test_workflow.WorkflowTests.test_RF07a_RF07b_idempotent_save_and_remove) ... ok
+test_RF08_duplicate_or_missing_pair_cannot_replace_valid_pair (tests.test_workflow.WorkflowTests.test_RF08_duplicate_or_missing_pair_cannot_replace_valid_pair) ... 2026-11-16 17:08:05,248 WARNING http_error status=400 correlation=81a54b2b16d346b7ab95651bdd442afd
+2026-11-16 17:08:05,253 WARNING http_error status=400 correlation=2f9ae5887e7c446b921eb691fc7d426c
+ok
+test_RF09_RF10_missing_fields_and_priorities_without_winner (tests.test_workflow.WorkflowTests.test_RF09_RF10_missing_fields_and_priorities_without_winner) ... ok
+test_RF09_compatible_values_and_nonhomologous_periods (tests.test_workflow.WorkflowTests.test_RF09_compatible_values_and_nonhomologous_periods) ... ok
+test_RF11_edit_uses_authenticated_owner_even_with_foreign_identifier (tests.test_workflow.WorkflowTests.test_RF11_edit_uses_authenticated_owner_even_with_foreign_identifier) ... ok
+test_RF11_no_cross_owner_read_or_delete (tests.test_workflow.WorkflowTests.test_RF11_no_cross_owner_read_or_delete) ... 2026-11-16 17:08:05,283 WARNING http_error status=404 correlation=5b1b77dca85f4c66af143526819a1695
+2026-11-16 17:08:05,284 WARNING http_error status=405 correlation=0dc2b7a42eb14ed6a1231346d59dea28
+2026-11-16 17:08:05,286 WARNING http_error status=404 correlation=d3b4e1bc76d348f79fd0b6da661825b6
+2026-11-16 17:08:05,287 WARNING http_error status=404 correlation=02d533d4a95044f58a1c250b2d86c74b
+ok
+test_RF18_catalogue_atomic_rejection_and_repeatable_import (tests.test_workflow.WorkflowTests.test_RF18_catalogue_atomic_rejection_and_repeatable_import) ... ok
+test_RF18_rejects_invalid_source_schema_fields (tests.test_workflow.WorkflowTests.test_RF18_rejects_invalid_source_schema_fields) ... ok
+test_RF18_source_revisions_do_not_overwrite_existing_provenance (tests.test_workflow.WorkflowTests.test_RF18_source_revisions_do_not_overwrite_existing_provenance) ... ok
+test_RF19_own_confirmed_deletion_cascades (tests.test_workflow.WorkflowTests.test_RF19_own_confirmed_deletion_cascades) ... 2026-11-16 17:08:05,314 WARNING http_error status=400 correlation=e461aff1bb7b4a6f97771e5404079549
+ok
+test_RNFS01_authentication_expiry_and_csrf (tests.test_workflow.WorkflowTests.test_RNFS01_authentication_expiry_and_csrf) ... 2026-11-16 17:08:05,322 WARNING http_error status=403 correlation=b863b35a51904ebbb7827398ce4f75cb
+2026-11-16 17:08:05,324 WARNING http_error status=403 correlation=2ab3c4ae5cf343baa6d485679e1a5a8c
+ok
+test_RNFS04_headers_and_error_correlation (tests.test_workflow.WorkflowTests.test_RNFS04_headers_and_error_correlation) ... 2026-11-16 17:08:05,329 WARNING http_error status=404 correlation=0f7903c5ea854a70916005add5a59bb1
+ok
+test_account_protocol_and_session_attempt_limit (tests.test_workflow.WorkflowTests.test_account_protocol_and_session_attempt_limit) ... 2026-11-16 17:08:05,333 WARNING http_error status=405 correlation=e5335c82e08641378c07935d1691ea2b
+2026-11-16 17:08:05,334 WARNING http_error status=400 correlation=872351644b7644a4a08d559f4d97fab4
+2026-11-16 17:08:05,336 WARNING http_error status=429 correlation=346c52eff34a494c877d7f61b13e6fe9
+ok
+test_mutations_reject_get_and_other_methods (tests.test_workflow.WorkflowTests.test_mutations_reject_get_and_other_methods) ... 2026-11-16 17:08:05,339 WARNING http_error status=405 correlation=43ff6a56653e4a50b936c92587e1d7fa
+2026-11-16 17:08:05,340 WARNING http_error status=405 correlation=6af30ae2e2544055835275ec2a057a33
+2026-11-16 17:08:05,340 WARNING http_error status=405 correlation=c649d6b294ad4593b12318988e237177
+2026-11-16 17:08:05,342 WARNING http_error status=405 correlation=babfac85ddf74201a050482bf4531696
+2026-11-16 17:08:05,343 WARNING http_error status=405 correlation=2c33f70f66f646a2a39c730feca80584
+2026-11-16 17:08:05,344 WARNING http_error status=405 correlation=0cb694234e0b4d8f8f7d8d7adbc03ca0
+2026-11-16 17:08:05,345 WARNING http_error status=405 correlation=d3e2b7e180a44eb8be01e49472431006
+ok
+test_summary_validates_scale_and_complete_items (tests.test_workflow.WorkflowTests.test_summary_validates_scale_and_complete_items) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 1.083s
+
+OK
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+ OK
+System check identified no issues (0 silenced).

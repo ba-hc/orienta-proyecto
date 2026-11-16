@@ -1,0 +1,9 @@
+digraph G {rankdir=LR;graph [bgcolor="white",fontname="Roboto",pad="0.3",ranksep="0.65"]; node [shape=box,style="rounded,filled",fillcolor="#F3F6F9",color="#223C6A",fontname="Roboto",fontsize=13,margin="0.18"]; edge [color="#53677B",fontname="Roboto",fontsize=10]; Estudiante[label="Estudiante
+[Persona]
+Explora y conserva su proceso"]; Operador[label="Responsable técnico
+[Persona]
+Prepara snapshots"]; Orienta[label="Orienta
+[Sistema académico]
+Intereses, prioridades y comparación",fillcolor="#223C6A",fontcolor="white"]; Fuentes[label="DEMRE / UdeC
+[Sistemas externos]
+Información pública"]; Estudiante->Orienta[label="Navegador; cuenta propia"]; Operador->Orienta[label="Importa archivo revisado"]; Fuentes->Operador[label="PDF / páginas oficiales"]; }

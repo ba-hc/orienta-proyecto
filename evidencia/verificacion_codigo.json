@@ -1,0 +1,8 @@
+{
+  "source_code_commit": "a8452440b219acd78b08dae8964e6337f41e2343",
+  "suite": "24tests passed; evidencia/pruebas.log",
+  "coverage": "evidencia/cobertura.json",
+  "browser": "evidencia/e2e.json",
+  "load": "evidencia/carga.json,30000operaciones;600.31s;runtime aislado anterior al cambio solo de formato de logs",
+  "limits": "CIfinal del paquete se verifica aparte;sin despliegue productivo ni validación humana sustituida"
+}

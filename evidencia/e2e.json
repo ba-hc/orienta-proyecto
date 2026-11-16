@@ -1,0 +1,42 @@
+[
+  {
+    "engine": "chromium",
+    "version": "159.0.8154.6",
+    "width": 1440,
+    "status": "pass",
+    "seconds": 4.61,
+    "page_errors": [],
+    "horizontal_page_overflow": false,
+    "steps": "alta,12 respuestas,prioridades,91 ofertas,filtro,2 guardados,comparación,logout/login,recuperación,supresión"
+  },
+  {
+    "engine": "chromium",
+    "version": "159.0.8154.6",
+    "width": 360,
+    "status": "pass",
+    "seconds": 4.34,
+    "page_errors": [],
+    "horizontal_page_overflow": false,
+    "steps": "alta,12 respuestas,prioridades,91 ofertas,filtro,2 guardados,comparación,logout/login,recuperación,supresión"
+  },
+  {
+    "engine": "firefox",
+    "version": "159.0",
+    "width": 1440,
+    "status": "pass",
+    "seconds": 5.13,
+    "page_errors": [],
+    "horizontal_page_overflow": false,
+    "steps": "alta,12 respuestas,prioridades,91 ofertas,filtro,2 guardados,comparación,logout/login,recuperación,supresión"
+  },
+  {
+    "engine": "firefox",
+    "version": "159.0",
+    "width": 360,
+    "status": "pass",
+    "seconds": 4.8,
+    "page_errors": [],
+    "horizontal_page_overflow": false,
+    "steps": "alta,12 respuestas,prioridades,91 ofertas,filtro,2 guardados,comparación,logout/login,recuperación,supresión"
+  }
+]

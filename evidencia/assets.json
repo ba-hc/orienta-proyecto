@@ -1,0 +1,74 @@
+[
+  {
+    "path": "docs/identidad/Procedencia_Identidad.json",
+    "sha256": "09c0b7d55bdd889978a9e9a2c8bbe22dc2cffd6e478d90809e7ef16b3a471271",
+    "origin": "Antecedente E2, registro Procedencia_Identidad.json",
+    "rights": "Fuentes OFL; marcaUdeC conservada parauso académico,sin licencia abierta atribuida"
+  },
+  {
+    "path": "docs/identidad/README.md",
+    "sha256": "d76dca820716e2d5755ec15d29137a0d60d1919feb703d11450766018f021026",
+    "origin": "Antecedente E2, registro Procedencia_Identidad.json",
+    "rights": "Fuentes OFL; marcaUdeC conservada parauso académico,sin licencia abierta atribuida"
+  },
+  {
+    "path": "docs/identidad/UdeC_horizontal.png",
+    "sha256": "47cf33f44c96eecc4bc60ab4264d5d4f271ad550c02c8771e90c7aa3239ed68b",
+    "origin": "Antecedente E2, registro Procedencia_Identidad.json",
+    "rights": "Fuentes OFL; marcaUdeC conservada parauso académico,sin licencia abierta atribuida"
+  },
+  {
+    "path": "docs/identidad/UdeC_horizontal.svg",
+    "sha256": "ca636b71f9a47920bf3a30e45c7beea3e60bfbf9abf2c5fc00c310ba47086312",
+    "origin": "Antecedente E2, registro Procedencia_Identidad.json",
+    "rights": "Fuentes OFL; marcaUdeC conservada parauso académico,sin licencia abierta atribuida"
+  },
+  {
+    "path": "docs/identidad/fuentes/Poppins-Bold.ttf",
+    "sha256": "7219547ee25334cbac0fe4b3acf0bf631e48ebb622c71af038edaaa652c60875",
+    "origin": "Antecedente E2, registro Procedencia_Identidad.json",
+    "rights": "Fuentes OFL; marcaUdeC conservada parauso académico,sin licencia abierta atribuida"
+  },
+  {
+    "path": "docs/identidad/fuentes/Poppins-Regular.ttf",
+    "sha256": "707fdc5c8bab57a90061c6a8ed7b70d5ffb82fc810e994e79f90bace890c255a",
+    "origin": "Antecedente E2, registro Procedencia_Identidad.json",
+    "rights": "Fuentes OFL; marcaUdeC conservada parauso académico,sin licencia abierta atribuida"
+  },
+  {
+    "path": "docs/identidad/fuentes/Poppins-SemiBold.ttf",
+    "sha256": "248c0244b350ec68880996aa6be6d7796274b49992d5fcbbefe251906aa4ea36",
+    "origin": "Antecedente E2, registro Procedencia_Identidad.json",
+    "rights": "Fuentes OFL; marcaUdeC conservada parauso académico,sin licencia abierta atribuida"
+  },
+  {
+    "path": "docs/identidad/fuentes/Poppins_OFL.txt",
+    "sha256": "118f07a2105ffe3d198879b716d6f91107415231777e2b35a6cca5ad1d4b22ca",
+    "origin": "Antecedente E2, registro Procedencia_Identidad.json",
+    "rights": "Fuentes OFL; marcaUdeC conservada parauso académico,sin licencia abierta atribuida"
+  },
+  {
+    "path": "docs/identidad/fuentes/Roboto-Bold.ttf",
+    "sha256": "27467020febce4c0ac8482ea8e8d6f32bf8c5721fb9c301344d0e3f4d93a0119",
+    "origin": "Antecedente E2, registro Procedencia_Identidad.json",
+    "rights": "Fuentes OFL; marcaUdeC conservada parauso académico,sin licencia abierta atribuida"
+  },
+  {
+    "path": "docs/identidad/fuentes/Roboto-Medium.ttf",
+    "sha256": "616eee3f9b60ec0196e09700ebca48a375da3323c4d5872e2b982170969ac90e",
+    "origin": "Antecedente E2, registro Procedencia_Identidad.json",
+    "rights": "Fuentes OFL; marcaUdeC conservada parauso académico,sin licencia abierta atribuida"
+  },
+  {
+    "path": "docs/identidad/fuentes/Roboto-Regular.ttf",
+    "sha256": "dbd285b518e398832f6f4a736109c355ce25a49546bfce41bab256c9ef7e56eb",
+    "origin": "Antecedente E2, registro Procedencia_Identidad.json",
+    "rights": "Fuentes OFL; marcaUdeC conservada parauso académico,sin licencia abierta atribuida"
+  },
+  {
+    "path": "docs/identidad/fuentes/Roboto_OFL.txt",
+    "sha256": "7d96701533d059cfd4191a85ecfd159e262527abd737eae6d9fb533844c70410",
+    "origin": "Antecedente E2, registro Procedencia_Identidad.json",
+    "rights": "Fuentes OFL; marcaUdeC conservada parauso académico,sin licencia abierta atribuida"
+  }
+]

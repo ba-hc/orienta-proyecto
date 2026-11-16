@@ -1,0 +1,711 @@
+{
+  "results": [
+    {
+      "width": 360,
+      "route": "/",
+      "axe_version": "4.14.1",
+      "violations": [],
+      "incomplete_checks": 0,
+      "passes": 16,
+      "lcp_lab_ms": 28,
+      "cls_lab": 0.012640264322916667,
+      "page_overflow": false,
+      "keyboard_skip": "Saltar al contenido"
+    },
+    {
+      "width": 360,
+      "route": "/intereses/",
+      "axe_version": "4.14.1",
+      "violations": [],
+      "incomplete_checks": 0,
+      "passes": 19,
+      "lcp_lab_ms": 48,
+      "cls_lab": 0.001016307638888889,
+      "page_overflow": false,
+      "keyboard_skip": "Saltar al contenido"
+    },
+    {
+      "width": 360,
+      "route": "/prioridades/",
+      "axe_version": "4.14.1",
+      "violations": [],
+      "incomplete_checks": 0,
+      "passes": 19,
+      "lcp_lab_ms": 36,
+      "cls_lab": 0.0010714326388888888,
+      "page_overflow": false,
+      "keyboard_skip": "Saltar al contenido"
+    },
+    {
+      "width": 360,
+      "route": "/catalogo/",
+      "axe_version": "4.14.1",
+      "violations": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "targets": [
+            [
+              "form[action=\"/catalogo/1/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/2/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/3/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/4/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/5/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/6/guardar/\"] > button"
+            ],
+            [
+              "button[aria-label=\"Guardar ASTRONOMÍA Concepción\"]"
+            ],
+            [
+              "button[aria-label=\"Guardar AUDITORIA Concepción\"]"
+            ],
+            [
+              "form[action=\"/catalogo/9/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/10/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/11/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/12/guardar/\"] > button"
+            ],
+            [
+              "button[aria-label=\"Guardar BIOLOGÍA Concepción\"]"
+            ],
+            [
+              "form[action=\"/catalogo/14/guardar/\"] > button"
+            ],
+            [
+              "button[aria-label=\"Guardar BIOQUÍMICA Concepción\"]"
+            ],
+            [
+              "form[action=\"/catalogo/16/guardar/\"] > button"
+            ],
+            [
+              "button[aria-label=\"Guardar DERECHO Concepción\"]"
+            ],
+            [
+              "form[action=\"/catalogo/18/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/19/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/20/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/21/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/22/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/23/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/24/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/25/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/26/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/27/guardar/\"] > button"
+            ],
+            [
+              "button[aria-label=\"Guardar GEOFÍSICA Concepción\"]"
+            ],
+            [
+              "button[aria-label=\"Guardar GEOGRAFÍA Concepción\"]"
+            ],
+            [
+              "button[aria-label=\"Guardar GEOLOGÍA Concepción\"]"
+            ],
+            [
+              "form[action=\"/catalogo/31/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/32/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/33/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/34/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/35/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/36/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/37/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/39/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/38/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/40/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/41/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/42/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/43/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/44/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/45/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/46/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/47/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/48/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/49/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/50/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/51/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/53/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/52/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/54/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/55/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/56/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/57/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/58/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/59/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/60/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/61/guardar/\"] > button"
+            ],
+            [
+              "button[aria-label=\"Guardar MEDICINA Concepción\"]"
+            ],
+            [
+              "form[action=\"/catalogo/63/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/64/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/65/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/66/guardar/\"] > button"
+            ],
+            [
+              "button[aria-label=\"Guardar ODONTOLOGÍA Concepción\"]"
+            ],
+            [
+              "form[action=\"/catalogo/68/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/69/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/70/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/71/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/72/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/73/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/74/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/75/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/76/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/77/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/78/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/79/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/80/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/81/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/82/guardar/\"] > button"
+            ],
+            [
+              "button[aria-label=\"Guardar PERIODISMO Concepción\"]"
+            ],
+            [
+              "button[aria-label=\"Guardar PSICOLOGÍA Concepción\"]"
+            ],
+            [
+              "form[action=\"/catalogo/85/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/86/guardar/\"] > button"
+            ],
+            [
+              "button[aria-label=\"Guardar SOCIOLOGÍA Concepción\"]"
+            ],
+            [
+              "button[aria-label=\"Guardar TEATRO Concepción\"]"
+            ],
+            [
+              "form[action=\"/catalogo/89/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/90/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/91/guardar/\"] > button"
+            ]
+          ]
+        }
+      ],
+      "incomplete_checks": 0,
+      "passes": 20,
+      "lcp_lab_ms": 60,
+      "cls_lab": 0.0016998576388888888,
+      "page_overflow": false,
+      "keyboard_skip": "Saltar al contenido"
+    },
+    {
+      "width": 360,
+      "route": "/guardados/",
+      "axe_version": "4.14.1",
+      "violations": [],
+      "incomplete_checks": 0,
+      "passes": 16,
+      "lcp_lab_ms": 48,
+      "cls_lab": 0.0011496965277777778,
+      "page_overflow": false,
+      "keyboard_skip": "Saltar al contenido"
+    },
+    {
+      "width": 360,
+      "route": "/comparar/",
+      "axe_version": "4.14.1",
+      "violations": [],
+      "incomplete_checks": 0,
+      "passes": 19,
+      "lcp_lab_ms": 32,
+      "cls_lab": 0.0011105645833333333,
+      "page_overflow": false,
+      "keyboard_skip": "Saltar al contenido"
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "axe_version": "4.14.1",
+      "violations": [],
+      "incomplete_checks": 0,
+      "passes": 16,
+      "lcp_lab_ms": 32,
+      "cls_lab": 0.0014374102105034722,
+      "page_overflow": false,
+      "keyboard_skip": "Saltar al contenido"
+    },
+    {
+      "width": 1440,
+      "route": "/intereses/",
+      "axe_version": "4.14.1",
+      "violations": [],
+      "incomplete_checks": 0,
+      "passes": 19,
+      "lcp_lab_ms": 32,
+      "cls_lab": 0.0014100852231626157,
+      "page_overflow": false,
+      "keyboard_skip": "Saltar al contenido"
+    },
+    {
+      "width": 1440,
+      "route": "/prioridades/",
+      "axe_version": "4.14.1",
+      "violations": [],
+      "incomplete_checks": 0,
+      "passes": 19,
+      "lcp_lab_ms": 36,
+      "cls_lab": 0.00044731363932291673,
+      "page_overflow": false,
+      "keyboard_skip": "Saltar al contenido"
+    },
+    {
+      "width": 1440,
+      "route": "/catalogo/",
+      "axe_version": "4.14.1",
+      "violations": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "targets": [
+            [
+              "form[action=\"/catalogo/1/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/2/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/3/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/4/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/5/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/6/guardar/\"] > button"
+            ],
+            [
+              "button[aria-label=\"Guardar ASTRONOMÍA Concepción\"]"
+            ],
+            [
+              "button[aria-label=\"Guardar AUDITORIA Concepción\"]"
+            ],
+            [
+              "form[action=\"/catalogo/9/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/10/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/11/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/12/guardar/\"] > button"
+            ],
+            [
+              "button[aria-label=\"Guardar BIOLOGÍA Concepción\"]"
+            ],
+            [
+              "form[action=\"/catalogo/14/guardar/\"] > button"
+            ],
+            [
+              "button[aria-label=\"Guardar BIOQUÍMICA Concepción\"]"
+            ],
+            [
+              "form[action=\"/catalogo/16/guardar/\"] > button"
+            ],
+            [
+              "button[aria-label=\"Guardar DERECHO Concepción\"]"
+            ],
+            [
+              "form[action=\"/catalogo/18/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/19/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/20/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/21/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/22/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/23/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/24/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/25/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/26/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/27/guardar/\"] > button"
+            ],
+            [
+              "button[aria-label=\"Guardar GEOFÍSICA Concepción\"]"
+            ],
+            [
+              "button[aria-label=\"Guardar GEOGRAFÍA Concepción\"]"
+            ],
+            [
+              "button[aria-label=\"Guardar GEOLOGÍA Concepción\"]"
+            ],
+            [
+              "form[action=\"/catalogo/31/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/32/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/33/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/34/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/35/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/36/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/37/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/39/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/38/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/40/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/41/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/42/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/43/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/44/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/45/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/46/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/47/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/48/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/49/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/50/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/51/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/53/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/52/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/54/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/55/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/56/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/57/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/58/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/59/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/60/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/61/guardar/\"] > button"
+            ],
+            [
+              "button[aria-label=\"Guardar MEDICINA Concepción\"]"
+            ],
+            [
+              "form[action=\"/catalogo/63/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/64/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/65/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/66/guardar/\"] > button"
+            ],
+            [
+              "button[aria-label=\"Guardar ODONTOLOGÍA Concepción\"]"
+            ],
+            [
+              "form[action=\"/catalogo/68/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/69/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/70/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/71/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/72/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/73/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/74/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/75/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/76/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/77/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/78/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/79/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/80/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/81/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/82/guardar/\"] > button"
+            ],
+            [
+              "button[aria-label=\"Guardar PERIODISMO Concepción\"]"
+            ],
+            [
+              "button[aria-label=\"Guardar PSICOLOGÍA Concepción\"]"
+            ],
+            [
+              "form[action=\"/catalogo/85/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/86/guardar/\"] > button"
+            ],
+            [
+              "button[aria-label=\"Guardar SOCIOLOGÍA Concepción\"]"
+            ],
+            [
+              "button[aria-label=\"Guardar TEATRO Concepción\"]"
+            ],
+            [
+              "form[action=\"/catalogo/89/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/90/guardar/\"] > button"
+            ],
+            [
+              "form[action=\"/catalogo/91/guardar/\"] > button"
+            ]
+          ]
+        }
+      ],
+      "incomplete_checks": 0,
+      "passes": 20,
+      "lcp_lab_ms": 44,
+      "cls_lab": 0.0008174868887442131,
+      "page_overflow": false,
+      "keyboard_skip": "Saltar al contenido"
+    },
+    {
+      "width": 1440,
+      "route": "/guardados/",
+      "axe_version": "4.14.1",
+      "violations": [],
+      "incomplete_checks": 0,
+      "passes": 16,
+      "lcp_lab_ms": 28,
+      "cls_lab": 0.000711411404079861,
+      "page_overflow": false,
+      "keyboard_skip": "Saltar al contenido"
+    },
+    {
+      "width": 1440,
+      "route": "/comparar/",
+      "axe_version": "4.14.1",
+      "violations": [],
+      "incomplete_checks": 0,
+      "passes": 19,
+      "lcp_lab_ms": 48,
+      "cls_lab": 0.0006850028030960648,
+      "page_overflow": false,
+      "keyboard_skip": "Saltar al contenido"
+    }
+  ],
+  "limits": "Axe automático no sustituye lector de pantalla/inspección de todos los criterios. LCP/CLS son laboratorio local n=1 por ruta/ancho; no INP ni p75 de campo."
+}

@@ -1,0 +1,65 @@
+{
+  "exportador": {
+    "agent_id": "7009844e-374d-4441-a191-f37128eaec56",
+    "profile": "Codex · Sol · Max",
+    "decision": "aceptado con ajuste posterior delprincipal para no dividir filas breves",
+    "ownership": [
+      "herramientas/exportar_documentos.py",
+      "herramientas/README_exportador.md"
+    ],
+    "evidence": "/home/ben/.local/state/tmp/orienta-export-qa-4d35wl5o/",
+    "sandbox": "full-access; checkout separado, no allowlist técnica",
+    "codex_go_usage": "intentado; herramienta devolvió unknown task ref para ID Paseo. No se inventa registro Go.",
+    "root_review_seconds_estimate": 102,
+    "root_review_seconds_measured": null,
+    "rework_seconds_estimate": 61,
+    "rework_seconds_measured": null,
+    "tokens_reported": null,
+    "time_limit": "Estimación de revisión del agente; no medición exacta ni HH humanas. El IDPaseo no fue aceptado porcodex-go-usage."
+  },
+  "inventario": {
+    "agent_id": "4c938460-7c9b-43b4-ad90-cfff21c3215c",
+    "profile": "Go · DeepSeek · Max",
+    "decision": "aceptado tras cotejar 17RF,21RNF,CI1/CI2 contra fuentes originales",
+    "note": "Corte del checkout original, no estado actual del nuevo repo. Sin cambios al checkout.",
+    "root_review_seconds_estimate": 65,
+    "root_review_seconds_measured": null,
+    "rework_seconds_estimate": 0,
+    "rework_seconds_measured": null,
+    "tokens_reported": null,
+    "time_limit": "Estimación de revisión del agente; no medición exacta ni HH humanas. El IDPaseo no fue aceptado porcodex-go-usage."
+  },
+  "srs_edicion": {
+    "agent_id": "4c938460-7c9b-43b4-ad90-cfff21c3215c",
+    "decision": "aceptado tras diff yconservación de14secciones,21RF,10RB",
+    "evidence": "docs/E3/SRS_IEEE830_E3.md",
+    "root_review_seconds_estimate": 83,
+    "root_review_seconds_measured": null,
+    "rework_seconds_estimate": 0,
+    "rework_seconds_measured": null,
+    "tokens_reported": null,
+    "time_limit": "Estimación de revisión del agente; no medición exacta ni HH humanas. El IDPaseo no fue aceptado porcodex-go-usage."
+  },
+  "edicion_7docs": {
+    "agent_id": "467645c3-9c44-4cb4-960b-2b20571cb4ec",
+    "decision": "aceptado; estructura,URLs,comentarios ylímites cotejados",
+    "evidence": "docs/E3/",
+    "root_review_seconds_estimate": 115,
+    "root_review_seconds_measured": null,
+    "rework_seconds_estimate": 0,
+    "rework_seconds_measured": null,
+    "tokens_reported": null,
+    "time_limit": "Estimación de revisión del agente; no medición exacta ni HH humanas. El IDPaseo no fue aceptado porcodex-go-usage."
+  },
+  "edicion_5docs": {
+    "agent_id": "4c938460-7c9b-43b4-ad90-cfff21c3215c",
+    "decision": "aceptado tras cotejar estructura,URLs,21RNF,valores ylímites",
+    "evidence": "docs/E3/RNF_Mediciones.md",
+    "root_review_seconds_estimate": 74,
+    "root_review_seconds_measured": null,
+    "rework_seconds_estimate": 0,
+    "rework_seconds_measured": null,
+    "tokens_reported": null,
+    "time_limit": "Estimación de revisión del agente; no medición exacta ni HH humanas. El IDPaseo no fue aceptado porcodex-go-usage."
+  }
+}
