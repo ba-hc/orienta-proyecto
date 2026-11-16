@@ -1,0 +1,11 @@
+.venv/
+.runtime/
+__pycache__/
+*.py[cod]
+.env*
+.coverage
+htmlcov/
+node_modules/
+test-results/
+*.sqlite3
+*.key
