@@ -1,0 +1,41 @@
+[
+  {
+    "code": "13073",
+    "url": "https://admision.udec.cl/ingenieria-civil-informatica/",
+    "dimension": "duracion",
+    "value": 10,
+    "unit": "semestres",
+    "period": "Plan publicado; revisar 2027",
+    "retrieved": "2026-11-16",
+    "method": "Lectura del sitio oficial mediante navegador de búsqueda; Medicina: 7 años × 2 semestres/año. La página no declara explícitamente año de vigencia del plan. No se importan aranceles ni empleabilidad sin período/cohorte confirmado.",
+    "sha256": "164c218c863eb31af1dc4ef5b5cf2a79297992106db4eb47ef450884c6c2b6f2",
+    "hash_scope": "Extracto curado de campos, no HTML completo",
+    "title": "Admisión UdeC · Ingeniería Civil Informática"
+  },
+  {
+    "code": "13086",
+    "url": "https://admision.udec.cl/medicina/",
+    "dimension": "duracion",
+    "value": 14,
+    "unit": "semestres",
+    "period": "Plan publicado; revisar 2027",
+    "retrieved": "2026-11-16",
+    "method": "Lectura del sitio oficial mediante navegador de búsqueda; Medicina: 7 años × 2 semestres/año. La página no declara explícitamente año de vigencia del plan. No se importan aranceles ni empleabilidad sin período/cohorte confirmado.",
+    "sha256": "f155e98d04cc9aaba32d26823e845175b19fc0fd2cd0ca6f679d212252cd8f4b",
+    "hash_scope": "Extracto curado de campos, no HTML completo",
+    "title": "Admisión UdeC · Medicina"
+  },
+  {
+    "code": "13067",
+    "url": "https://admision.udec.cl/psicologia/",
+    "dimension": "duracion",
+    "value": 10,
+    "unit": "semestres",
+    "period": "Plan publicado; revisar 2027",
+    "retrieved": "2026-11-16",
+    "method": "Lectura del sitio oficial mediante navegador de búsqueda; Medicina: 7 años × 2 semestres/año. La página no declara explícitamente año de vigencia del plan. No se importan aranceles ni empleabilidad sin período/cohorte confirmado.",
+    "sha256": "7401093e103898e801eb90d7888f08ef5cc3557cd971b0add1a6c41e25235e4f",
+    "hash_scope": "Extracto curado de campos, no HTML completo",
+    "title": "Admisión UdeC · Psicología"
+  }
+]

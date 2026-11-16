@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "web": {
+      "command": ".venv/bin/gunicorn orienta.wsgi:application --bind 127.0.0.1:${PORT:-19039} --workers 1 --threads 8"
+    },
+    "verificar": {
+      "command": ".venv/bin/coverage run --branch --source=orienta manage.py test tests --noinput"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{% load static %}<!doctype html>
+<html lang="es-CL"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{% block title %}Orienta · Mi exploración{% endblock %}</title><link rel="stylesheet" href="{% static 'orienta/app.css' %}"></head>
+<body><a class="skip" href="#contenido">Saltar al contenido</a><div class="demo">Demostración académica · Usa solo alias y respuestas de prueba</div>
+<header><a class="brand" href="/">Orienta<span>Tu decisión, con más contexto.</span></a>{% if user.is_authenticated %}<nav aria-label="Principal"><a href="/">Mi proceso</a><a href="/intereses/">Intereses</a><a href="/prioridades/">Prioridades</a><a href="/catalogo/">Catálogo</a><a href="/guardados/">Guardados</a><a href="/comparar/">Comparar</a></nav><form method="post" action="/salir/">{% csrf_token %}<button class="quiet">Salir</button></form>{% endif %}</header>
+<main id="contenido">{% if notice %}<div class="warning" role="alert">{{ notice }}</div>{% endif %}{% block content %}{% endblock %}</main>
+<footer>Orienta · Grupo 9 · Universidad de Concepción. Trabajo académico independiente.<br>Apoyo a la exploración: sin diagnóstico, ranking ni recomendación de carrera. <a href="/health/">Estado del servicio</a></footer></body></html>

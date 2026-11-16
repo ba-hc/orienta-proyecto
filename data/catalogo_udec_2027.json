@@ -1,0 +1,648 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://acceso.mineduc.cl/wp-content/uploads/2026/10/oferta-202730-10-26_compressed-1.pdf",
+    "title": "DEMRE · Oferta definitiva Admisión 2027",
+    "retrieved": "2026-11-16",
+    "sha256": "ca161a77d3b817abe3c292a18b80625f0fca590bdf8f71ca19f6c75946598067"
+  },
+  "offers": [
+    {
+      "code": "13023",
+      "name": "ADMINISTRACIÓN PUBLICA Y CIENCIA POLÍTICA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 294
+    },
+    {
+      "code": "13006",
+      "name": "AGRONOMÍA (CHILLÁN)",
+      "campus": "Chillán",
+      "cycle": 2027,
+      "source_page": 294
+    },
+    {
+      "code": "13105",
+      "name": "AGRONOMÍA (CONCEPCIÓN)",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 294
+    },
+    {
+      "code": "13026",
+      "name": "ANTROPOLOGÍA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 294
+    },
+    {
+      "code": "13080",
+      "name": "ARQUITECTURA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 294
+    },
+    {
+      "code": "13054",
+      "name": "ARTES VISUALES",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 294
+    },
+    {
+      "code": "13055",
+      "name": "ASTRONOMÍA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 294
+    },
+    {
+      "code": "13022",
+      "name": "AUDITORIA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 294
+    },
+    {
+      "code": "13094",
+      "name": "AUDITORIA - DIURNA (LOS ÁNGELES)",
+      "campus": "Los Ángeles",
+      "cycle": 2027,
+      "source_page": 294
+    },
+    {
+      "code": "13114",
+      "name": "BACHILLERATO EN CIENCIAS E INNOVACIÓN",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 294
+    },
+    {
+      "code": "13052",
+      "name": "BACHILLERATO EN HUMANIDADES",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 294
+    },
+    {
+      "code": "13012",
+      "name": "BIOINGENIERÍA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 294
+    },
+    {
+      "code": "13014",
+      "name": "BIOLOGÍA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 294
+    },
+    {
+      "code": "13013",
+      "name": "BIOLOGÍA MARINA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 294
+    },
+    {
+      "code": "13048",
+      "name": "BIOQUÍMICA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 295
+    },
+    {
+      "code": "13046",
+      "name": "CIENCIAS FÍSICAS",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 295
+    },
+    {
+      "code": "13024",
+      "name": "DERECHO",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 295
+    },
+    {
+      "code": "13029",
+      "name": "DERECHO (CHILLÁN)",
+      "campus": "Chillán",
+      "cycle": 2027,
+      "source_page": 295
+    },
+    {
+      "code": "13032",
+      "name": "EDUCACIÓN BÁSICA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 295
+    },
+    {
+      "code": "13092",
+      "name": "EDUCACIÓN BÁSICA (LOS ÁNGELES)",
+      "campus": "Los Ángeles",
+      "cycle": 2027,
+      "source_page": 295
+    },
+    {
+      "code": "13028",
+      "name": "EDUCACIÓN DIFERENCIAL",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 295
+    },
+    {
+      "code": "13089",
+      "name": "EDUCACIÓN DIFERENCIAL (LOS ÁNGELES)",
+      "campus": "Los Ángeles",
+      "cycle": 2027,
+      "source_page": 295
+    },
+    {
+      "code": "13027",
+      "name": "EDUCACIÓN PARVULARIA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 295
+    },
+    {
+      "code": "13103",
+      "name": "ENFERMERÍA (CHILLÁN)",
+      "campus": "Chillán",
+      "cycle": 2027,
+      "source_page": 295
+    },
+    {
+      "code": "13087",
+      "name": "ENFERMERÍA (CONCEPCIÓN)",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 295
+    },
+    {
+      "code": "13104",
+      "name": "ENFERMERÍA (LOS ÁNGELES)",
+      "campus": "Los Ángeles",
+      "cycle": 2027,
+      "source_page": 295
+    },
+    {
+      "code": "13082",
+      "name": "FONOAUDIOLOGÍA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 295
+    },
+    {
+      "code": "13056",
+      "name": "GEOFÍSICA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 295
+    },
+    {
+      "code": "13018",
+      "name": "GEOGRAFÍA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 296
+    },
+    {
+      "code": "13015",
+      "name": "GEOLOGÍA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 296
+    },
+    {
+      "code": "13061",
+      "name": "INGENIERÍA AMBIENTAL",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 296
+    },
+    {
+      "code": "13044",
+      "name": "INGENIERÍA AMBIENTAL (CHILLÁN)",
+      "campus": "Chillán",
+      "cycle": 2027,
+      "source_page": 296
+    },
+    {
+      "code": "13069",
+      "name": "INGENIERÍA CIVIL",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 296
+    },
+    {
+      "code": "13066",
+      "name": "INGENIERÍA CIVIL AEROESPACIAL",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 296
+    },
+    {
+      "code": "13009",
+      "name": "INGENIERÍA CIVIL AGRÍCOLA (CHILLÁN)",
+      "campus": "Chillán",
+      "cycle": 2027,
+      "source_page": 296
+    },
+    {
+      "code": "13062",
+      "name": "INGENIERÍA CIVIL BIOMÉDICA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 296
+    },
+    {
+      "code": "13102",
+      "name": "INGENIERÍA CIVIL DE MINAS",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 296
+    },
+    {
+      "code": "13070",
+      "name": "INGENIERÍA CIVIL ELÉCTRICA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 296
+    },
+    {
+      "code": "13071",
+      "name": "INGENIERÍA CIVIL ELECTRÓNICA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 296
+    },
+    {
+      "code": "13064",
+      "name": "INGENIERÍA CIVIL EN TELECOMUNICACIONES",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 296
+    },
+    {
+      "code": "13072",
+      "name": "INGENIERÍA CIVIL INDUSTRIAL",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 296
+    },
+    {
+      "code": "13073",
+      "name": "INGENIERÍA CIVIL INFORMÁTICA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 296
+    },
+    {
+      "code": "13003",
+      "name": "INGENIERÍA CIVIL MATEMÁTICA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 297
+    },
+    {
+      "code": "13074",
+      "name": "INGENIERÍA CIVIL MECÁNICA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 297
+    },
+    {
+      "code": "13075",
+      "name": "INGENIERÍA CIVIL METALÚRGICA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 297
+    },
+    {
+      "code": "13076",
+      "name": "INGENIERÍA CIVIL QUÍMICA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 297
+    },
+    {
+      "code": "13068",
+      "name": "INGENIERÍA CIVIL, PRIMER AÑO COMÚN",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 297
+    },
+    {
+      "code": "13030",
+      "name": "INGENIERÍA COMERCIAL (CHILLÁN)",
+      "campus": "Chillán",
+      "cycle": 2027,
+      "source_page": 297
+    },
+    {
+      "code": "13019",
+      "name": "INGENIERÍA COMERCIAL (CONCEPCIÓN)",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 297
+    },
+    {
+      "code": "13078",
+      "name": "INGENIERÍA COMERCIAL (LOS ÁNGELES)",
+      "campus": "Los Ángeles",
+      "cycle": 2027,
+      "source_page": 297
+    },
+    {
+      "code": "13016",
+      "name": "INGENIERÍA EN BIOTECNOLOGÍA MARINA Y ACUICULTURA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 297
+    },
+    {
+      "code": "13085",
+      "name": "INGENIERÍA EN BIOTECNOLOGÍA VEGETAL (LOS ÁNGELES)",
+      "campus": "Los Ángeles",
+      "cycle": 2027,
+      "source_page": 297
+    },
+    {
+      "code": "13020",
+      "name": "INGENIERÍA EN BIOTECNOLOGÍA VEGETAL",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 297
+    },
+    {
+      "code": "13043",
+      "name": "INGENIERÍA EN CONSERVACIÓN DE RECURSOS NATURALES",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 297
+    },
+    {
+      "code": "13065",
+      "name": "INGENIERÍA ESTADÍSTICA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 297
+    },
+    {
+      "code": "13008",
+      "name": "INGENIERÍA FORESTAL",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 297
+    },
+    {
+      "code": "13093",
+      "name": "INGENIERÍA GEOMÁTICA (LOS ÁNGELES)",
+      "campus": "Los Ángeles",
+      "cycle": 2027,
+      "source_page": 298
+    },
+    {
+      "code": "13083",
+      "name": "KINESIOLOGÍA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 298
+    },
+    {
+      "code": "13059",
+      "name": "LICENCIATURA EN HISTORIA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 298
+    },
+    {
+      "code": "13002",
+      "name": "LICENCIATURA EN MATEMÁTICA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 298
+    },
+    {
+      "code": "13001",
+      "name": "LICENCIATURA EN QUÍMICA - QUÍMICO",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 298
+    },
+    {
+      "code": "13086",
+      "name": "MEDICINA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 298
+    },
+    {
+      "code": "13007",
+      "name": "MEDICINA VETERINARIA (CHILLÁN)",
+      "campus": "Chillán",
+      "cycle": 2027,
+      "source_page": 298
+    },
+    {
+      "code": "13011",
+      "name": "MEDICINA VETERINARIA (CONCEPCIÓN)",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 298
+    },
+    {
+      "code": "13050",
+      "name": "NUTRICIÓN Y DIETÉTICA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 298
+    },
+    {
+      "code": "13088",
+      "name": "OBSTETRICIA Y PUERICULTURA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 298
+    },
+    {
+      "code": "13091",
+      "name": "ODONTOLOGÍA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 298
+    },
+    {
+      "code": "13107",
+      "name": "PEDAGOGÍA EN ARTES VISUALES",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 298
+    },
+    {
+      "code": "13035",
+      "name": "PEDAGOGÍA EN CIENCIAS NATURALES Y BIOLOGÍA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 298
+    },
+    {
+      "code": "13036",
+      "name": "PEDAGOGÍA EN CIENCIAS NATURALES Y FÍSICA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 298
+    },
+    {
+      "code": "13079",
+      "name": "PEDAGOGÍA EN CS. NATURALES Y BIOLOGÍA (LOS ÁNGELES)",
+      "campus": "Los Ángeles",
+      "cycle": 2027,
+      "source_page": 299
+    },
+    {
+      "code": "13037",
+      "name": "PEDAGOGÍA EN CS. NATURALES Y QUÍMICA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 299
+    },
+    {
+      "code": "13101",
+      "name": "PEDAGOGÍA EN EDUCACIÓN FÍSICA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 299
+    },
+    {
+      "code": "13039",
+      "name": "PEDAGOGÍA EN EDUCACIÓN MUSICAL",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 299
+    },
+    {
+      "code": "13041",
+      "name": "PEDAGOGÍA EN ESPAÑOL",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 299
+    },
+    {
+      "code": "13112",
+      "name": "PEDAGOGÍA EN ESPAÑOL (LOS ÁNGELES)",
+      "campus": "Los Ángeles",
+      "cycle": 2027,
+      "source_page": 299
+    },
+    {
+      "code": "13042",
+      "name": "PEDAGOGÍA EN FILOSOFÍA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 299
+    },
+    {
+      "code": "13040",
+      "name": "PEDAGOGÍA EN HISTORIA Y GEOGRAFÍA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 299
+    },
+    {
+      "code": "13057",
+      "name": "PEDAGOGÍA EN INGLES",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 299
+    },
+    {
+      "code": "13106",
+      "name": "PEDAGOGÍA EN INGLES (LOS ÁNGELES)",
+      "campus": "Los Ángeles",
+      "cycle": 2027,
+      "source_page": 299
+    },
+    {
+      "code": "13108",
+      "name": "PEDAGOGÍA EN MATEMÁTICA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 299
+    },
+    {
+      "code": "13111",
+      "name": "PEDAGOGÍA EN MATEMÁTICA (LOS ÁNGELES)",
+      "campus": "Los Ángeles",
+      "cycle": 2027,
+      "source_page": 299
+    },
+    {
+      "code": "13031",
+      "name": "PERIODISMO",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 299
+    },
+    {
+      "code": "13067",
+      "name": "PSICOLOGÍA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 299
+    },
+    {
+      "code": "13049",
+      "name": "QUÍMICA Y FARMACIA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 300
+    },
+    {
+      "code": "13004",
+      "name": "QUÍMICO ANALISTA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 300
+    },
+    {
+      "code": "13077",
+      "name": "SOCIOLOGÍA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 300
+    },
+    {
+      "code": "13060",
+      "name": "TEATRO",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 300
+    },
+    {
+      "code": "13081",
+      "name": "TECNOLOGÍA MEDICA",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 300
+    },
+    {
+      "code": "13025",
+      "name": "TRABAJO SOCIAL",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 300
+    },
+    {
+      "code": "13058",
+      "name": "TRADUCCIÓN/INTERPRETACIÓN EN IDIOMAS EXTRANJEROS",
+      "campus": "Concepción",
+      "cycle": 2027,
+      "source_page": 300
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+name: Integración continua Orienta
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+      - name: Instalar dependencias verificadas
+        run: python -m pip install -r requirements.txt coverage==7.17.3 ruff==0.17.5
+      - name: Preparar runtime aislado
+        run: python herramientas/inicializar.py
+      - name: Verificar formato, código y migraciones
+        run: |
+          ruff check orienta tests herramientas manage.py
+          ruff format --check orienta tests herramientas manage.py
+          python manage.py makemigrations --check --dry-run
+          python manage.py check
+      - name: Ejecutar aceptación, integración y seguridad
+        run: |
+          coverage run --branch --source=orienta manage.py test tests --noinput
+          coverage report --fail-under=80
+      - name: Verificar importación reproducible
+        run: |
+          python manage.py migrate --noinput
+          python herramientas/importar_catalogo.py data/catalogo_udec_2027.json
+          python herramientas/importar_catalogo.py data/catalogo_udec_2027.json --aplicar
+          python herramientas/enriquecer_catalogo.py

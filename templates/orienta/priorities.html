@@ -1,0 +1,1 @@
+{% extends 'orienta/base.html' %}{% block content %}<h1>¿Qué pesa en tu decisión?</h1><p class="lead">Define la importancia de cada dimensión. Una prioridad resalta información; no genera un puntaje global.</p><form method="post" class="readable">{% csrf_token %}{% include 'orienta/_form.html' %}<button>Guardar prioridades</button></form>{% endblock %}
